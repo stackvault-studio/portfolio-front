@@ -2,10 +2,16 @@ name: Docker Publish
 
 on:
   push:
-    branches: [dev, main]
+    branches:
+      - dev
+      - 'feature/*'
+      - 'fix/*'
     tags: ['v*.*.*']
   pull_request:
-    branches: [dev, main]
+    branches:
+      - dev
+      - 'feature/*'
+      - 'fix/*'
   workflow_dispatch:
 
 jobs:
@@ -22,12 +28,12 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: ossemaabd95/portfolio-front
+          images: ossemaabd95/stackvault
           tags: |
-            type=ref,event=branch,branch=dev
-            type=ref,event=branch,branch=main
-            type=ref,event=tag
-            type=semver,pattern={{version}}
+            type=ref,event=branch,branch=dev,enable=true,prefix=front-dev
+            type=ref,event=branch,branch=feature/*,enable=true,prefix=front-staging
+            type=ref,event=branch,branch=fix/*,enable=true,prefix=front-staging
+            type=ref,event=tag,enable=true,prefix=front-
 
       - name: Login to Docker Hub
         if: github.event_name != 'pull_request'
