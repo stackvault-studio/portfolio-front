@@ -1,5 +1,8 @@
 # portfolio-front
 
+[![dev](https://github.com/stackvault-studio/portfolio-front/actions/workflows/docker-publish.yml/badge.svg?branch=dev)](https://github.com/stackvault-studio/portfolio-front/actions/workflows/docker-publish.yml)
+[![uat](https://github.com/stackvault-studio/portfolio-front/actions/workflows/docker-publish.yml/badge.svg?branch=main)](https://github.com/stackvault-studio/portfolio-front/actions/workflows/docker-publish.yml)
+
 ## Project Description
 
 Modern React-based frontend for the portfolio application. Features a dynamic dashboard, experience timeline, technology showcase, and certifications display.
