@@ -1,0 +1,791 @@
+{
+  "dashboard": {
+    "success": true,
+    "data": {
+      "stats": {
+        "totalProjects": 15,
+        "totalClients": 8,
+        "totalCertifications": 12,
+        "totalTechnologies": 25,
+        "yearsExperience": 7
+      },
+      "skills": [
+        {
+          "category": "Backend",
+          "technologies": [
+            {
+              "name": "Java",
+              "rate": 95
+            },
+            {
+              "name": "Spring Boot",
+              "rate": 90
+            },
+            {
+              "name": "PostgreSQL",
+              "rate": 85
+            },
+            {
+              "name": "Node.js",
+              "rate": 80
+            }
+          ]
+        },
+        {
+          "category": "Frontend",
+          "technologies": [
+            {
+              "name": "React",
+              "rate": 90
+            },
+            {
+              "name": "JavaScript",
+              "rate": 85
+            },
+            {
+              "name": "TypeScript",
+              "rate": 80
+            },
+            {
+              "name": "HTML/CSS",
+              "rate": 95
+            }
+          ]
+        },
+        {
+          "category": "DevOps",
+          "technologies": [
+            {
+              "name": "Docker",
+              "rate": 85
+            },
+            {
+              "name": "Kubernetes",
+              "rate": 75
+            },
+            {
+              "name": "AWS",
+              "rate": 80
+            }
+          ]
+        }
+      ]
+    },
+    "timestamp": "2024-01-01T10:00:00Z"
+  },
+  "experience-timeline": {
+    "success": true,
+    "data": [
+      {
+        "id": 1,
+        "company": "Vermeg",
+        "position": "Senior Java Developer",
+        "startDate": "2022-01-01",
+        "endDate": null,
+        "description": "Leading backend development for enterprise applications, mentoring junior developers, and implementing microservices architecture.",
+        "technologies": [
+          "Java",
+          "Spring Boot",
+          "PostgreSQL",
+          "Docker",
+          "Kubernetes"
+        ],
+        "achievements": [
+          "Led migration to microservices architecture reducing deployment time by 60%",
+          "Implemented CI/CD pipelines increasing release frequency by 3x",
+          "Mentored 5 junior developers and improved team productivity by 40%"
+        ],
+        "location": "Tunis, Tunisia",
+        "isCurrent": true
+      },
+      {
+        "id": 2,
+        "company": "Tech Solutions Inc",
+        "position": "Full Stack Developer",
+        "startDate": "2019-06-01",
+        "endDate": "2021-12-31",
+        "description": "Developed full-stack web applications using modern technologies and agile methodologies.",
+        "technologies": [
+          "JavaScript",
+          "React",
+          "Node.js",
+          "MongoDB",
+          "Express"
+        ],
+        "achievements": [
+          "Built 3 major client applications serving 10k+ users",
+          "Reduced application load time by 50% through optimization",
+          "Implemented automated testing increasing code coverage to 85%"
+        ],
+        "location": "Tunis, Tunisia",
+        "isCurrent": false
+      },
+      {
+        "id": 3,
+        "company": "StartupXYZ",
+        "position": "Junior Developer",
+        "startDate": "2017-09-01",
+        "endDate": "2019-05-31",
+        "description": "Started career as a junior developer working on various web development projects.",
+        "technologies": [
+          "JavaScript",
+          "PHP",
+          "MySQL",
+          "HTML",
+          "CSS"
+        ],
+        "achievements": [
+          "Contributed to 5+ successful project launches",
+          "Learned modern development practices and version control",
+          "Participated in code reviews and improved coding standards"
+        ],
+        "location": "Tunis, Tunisia",
+        "isCurrent": false
+      }
+    ],
+    "timestamp": "2024-01-01T10:00:00Z"
+  },
+  "work-experiences/1": {
+    "success": true,
+    "data": {
+      "id": 1,
+      "company": "Vermeg",
+      "position": "Senior Java Developer",
+      "startDate": "2022-01-01",
+      "endDate": null,
+      "description": "Leading backend development for enterprise applications, mentoring junior developers, and implementing microservices architecture. Responsible for designing scalable solutions and ensuring high performance and reliability.",
+      "responsibilities": [
+        "Design and implement microservices using Spring Boot",
+        "Lead technical architecture decisions",
+        "Mentor junior developers and conduct code reviews",
+        "Collaborate with cross-functional teams",
+        "Ensure code quality and maintainability"
+      ],
+      "technologies": [
+        "Java",
+        "Spring Boot",
+        "PostgreSQL",
+        "Docker",
+        "Kubernetes",
+        "Redis"
+      ],
+      "achievements": [
+        "Led migration to microservices architecture reducing deployment time by 60%",
+        "Implemented CI/CD pipelines increasing release frequency by 3x",
+        "Mentored 5 junior developers and improved team productivity by 40%",
+        "Reduced system downtime by 80% through improved monitoring"
+      ],
+      "projects": [
+        {
+          "name": "E-commerce Platform",
+          "description": "Large-scale e-commerce platform handling millions of transactions daily",
+          "technologies": [
+            "Java",
+            "Spring Boot",
+            "PostgreSQL",
+            "Redis"
+          ],
+          "role": "Lead Developer"
+        },
+        {
+          "name": "Banking System",
+          "description": "Secure banking application with real-time transaction processing",
+          "technologies": [
+            "Java",
+            "Spring Security",
+            "Oracle DB"
+          ],
+          "role": "Senior Developer"
+        }
+      ],
+      "location": "Tunis, Tunisia",
+      "isCurrent": true
+    },
+    "timestamp": "2024-01-01T10:00:00Z"
+  },
+  "technologies": {
+    "success": true,
+    "data": [
+      {
+        "id": 1,
+        "name": "Java",
+        "category": "Backend",
+        "proficiency": "expert",
+        "yearsOfExperience": 7,
+        "projectsCount": 15,
+        "recentlyUsed": true,
+        "lastUsed": "December 2024",
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
+        "tags": [
+          "Spring Boot",
+          "Microservices",
+          "REST APIs"
+        ],
+        "recentProjects": [
+          "E-commerce Platform",
+          "Banking System"
+        ],
+        "frameworks": [
+          "Spring Boot",
+          "Spring Security",
+          "Hibernate"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Spring Boot",
+        "category": "Backend",
+        "proficiency": "expert",
+        "yearsOfExperience": 5,
+        "projectsCount": 12,
+        "recentlyUsed": true,
+        "lastUsed": "December 2024",
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg",
+        "tags": [
+          "Java",
+          "Microservices",
+          "REST APIs"
+        ],
+        "recentProjects": [
+          "E-commerce Platform",
+          "Banking System"
+        ],
+        "frameworks": [
+          "Spring MVC",
+          "Spring Data",
+          "Spring Security"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "React",
+        "category": "Frontend",
+        "proficiency": "expert",
+        "yearsOfExperience": 4,
+        "projectsCount": 8,
+        "recentlyUsed": true,
+        "lastUsed": "November 2024",
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+        "tags": [
+          "JavaScript",
+          "UI/UX",
+          "SPA"
+        ],
+        "recentProjects": [
+          "Portfolio Website",
+          "Admin Dashboard"
+        ],
+        "frameworks": [
+          "Next.js",
+          "Redux",
+          "React Router"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "PostgreSQL",
+        "category": "Database",
+        "proficiency": "advanced",
+        "yearsOfExperience": 6,
+        "projectsCount": 10,
+        "recentlyUsed": true,
+        "lastUsed": "December 2024",
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
+        "tags": [
+          "SQL",
+          "Database Design",
+          "Performance"
+        ],
+        "recentProjects": [
+          "E-commerce Platform",
+          "Analytics System"
+        ],
+        "frameworks": [
+          "JDBC",
+          "Hibernate",
+          "Spring Data JPA"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Docker",
+        "category": "DevOps",
+        "proficiency": "advanced",
+        "yearsOfExperience": 3,
+        "projectsCount": 7,
+        "recentlyUsed": true,
+        "lastUsed": "October 2024",
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
+        "tags": [
+          "Containerization",
+          "CI/CD",
+          "Microservices"
+        ],
+        "recentProjects": [
+          "Microservices Deployment",
+          "CI/CD Pipeline"
+        ],
+        "frameworks": [
+          "Docker Compose",
+          "Kubernetes",
+          "Jenkins"
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Node.js",
+        "category": "Backend",
+        "proficiency": "intermediate",
+        "yearsOfExperience": 3,
+        "projectsCount": 5,
+        "recentlyUsed": false,
+        "lastUsed": "August 2024",
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+        "tags": [
+          "JavaScript",
+          "APIs",
+          "Real-time"
+        ],
+        "recentProjects": [
+          "Chat Application",
+          "REST API"
+        ],
+        "frameworks": [
+          "Express.js",
+          "Socket.io",
+          "MongoDB"
+        ]
+      },
+      {
+        "id": 7,
+        "name": "TypeScript",
+        "category": "Frontend",
+        "proficiency": "advanced",
+        "yearsOfExperience": 2,
+        "projectsCount": 4,
+        "recentlyUsed": true,
+        "lastUsed": "November 2024",
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+        "tags": [
+          "JavaScript",
+          "Type Safety",
+          "Modern Development"
+        ],
+        "recentProjects": [
+          "Portfolio Website",
+          "Admin Dashboard"
+        ],
+        "frameworks": [
+          "React",
+          "Next.js",
+          "Node.js"
+        ]
+      },
+      {
+        "id": 8,
+        "name": "Kubernetes",
+        "category": "DevOps",
+        "proficiency": "intermediate",
+        "yearsOfExperience": 2,
+        "projectsCount": 3,
+        "recentlyUsed": true,
+        "lastUsed": "September 2024",
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg",
+        "tags": [
+          "Container Orchestration",
+          "Microservices",
+          "Scalability"
+        ],
+        "recentProjects": [
+          "Microservices Platform",
+          "Cloud Migration"
+        ],
+        "frameworks": [
+          "Helm",
+          "Istio",
+          "Prometheus"
+        ]
+      }
+    ],
+    "pagination": {
+      "total": 8,
+      "limit": 50,
+      "offset": 0,
+      "hasMore": false
+    },
+    "timestamp": "2024-01-01T10:00:00Z"
+  },
+  "technologies/categories": {
+    "success": true,
+    "data": [
+      "Backend",
+      "Frontend",
+      "Database",
+      "DevOps",
+      "Cloud",
+      "Testing",
+      "Tools"
+    ],
+    "timestamp": "2024-01-01T10:00:00Z"
+  },
+  "education": {
+    "success": true,
+    "data": [
+      {
+        "id": 1,
+        "institution": "University of Tunis",
+        "degree": "Master's in Computer Science",
+        "field": "Software Engineering",
+        "startDate": "2015-09-01",
+        "endDate": "2017-06-30",
+        "grade": "Excellent",
+        "description": "Specialized in enterprise software development, distributed systems, and software architecture. Completed thesis on microservices architecture patterns.",
+        "achievements": [
+          "Graduated with honors (Excellent grade)",
+          "Published research paper on distributed systems",
+          "Led student project on enterprise application development",
+          "Active member of computer science club"
+        ],
+        "location": "Tunis, Tunisia"
+      },
+      {
+        "id": 2,
+        "institution": "University of Tunis",
+        "degree": "Bachelor's in Computer Science",
+        "field": "Computer Science",
+        "startDate": "2012-09-01",
+        "endDate": "2015-06-30",
+        "grade": "Very Good",
+        "description": "Foundation in computer science fundamentals including algorithms, data structures, programming languages, and software engineering principles.",
+        "achievements": [
+          "Consistent academic performance",
+          "Participated in programming competitions",
+          "Completed internship at local tech company",
+          "Developed first full-stack web application"
+        ],
+        "location": "Tunis, Tunisia"
+      }
+    ],
+    "timestamp": "2024-01-01T10:00:00Z"
+  },
+  "certifications": {
+    "success": true,
+    "data": [
+      {
+        "id": 1,
+        "name": "AWS Certified Solutions Architect - Associate",
+        "issuer": "Amazon Web Services",
+        "category": "Cloud",
+        "issueDate": "2023-03-15",
+        "expiryDate": "2026-03-15",
+        "credentialId": "AWS-SAA-123456",
+        "credentialUrl": "https://aws.amazon.com/verification",
+        "description": "Professional-level certification demonstrating expertise in designing distributed systems on AWS platform.",
+        "skills": [
+          "AWS",
+          "Cloud Architecture",
+          "Scalability",
+          "Security"
+        ],
+        "status": "active"
+      },
+      {
+        "id": 2,
+        "name": "Oracle Certified Java Programmer (OCPJP)",
+        "issuer": "Oracle",
+        "category": "Technical",
+        "issueDate": "2022-08-20",
+        "expiryDate": null,
+        "credentialId": "OCPJP-789012",
+        "credentialUrl": "https://oracle.com/certification",
+        "description": "Certification validating advanced Java programming skills and knowledge of Java SE platform.",
+        "skills": [
+          "Java",
+          "OOP",
+          "Collections",
+          "Concurrency"
+        ],
+        "status": "active"
+      },
+      {
+        "id": 3,
+        "name": "Certified Kubernetes Administrator (CKA)",
+        "issuer": "Cloud Native Computing Foundation",
+        "category": "DevOps",
+        "issueDate": "2023-11-10",
+        "expiryDate": "2026-11-10",
+        "credentialId": "CKA-345678",
+        "credentialUrl": "https://cncf.io/certification",
+        "description": "Certification demonstrating skills in deploying and managing Kubernetes clusters.",
+        "skills": [
+          "Kubernetes",
+          "Container Orchestration",
+          "DevOps"
+        ],
+        "status": "active"
+      },
+      {
+        "id": 4,
+        "name": "Spring Professional Certification",
+        "issuer": "Pivotal",
+        "category": "Technical",
+        "issueDate": "2021-05-15",
+        "expiryDate": null,
+        "credentialId": "SPC-901234",
+        "credentialUrl": "https://pivotal.io/certification",
+        "description": "Certification validating expertise in Spring Framework and Spring Boot development.",
+        "skills": [
+          "Spring Boot",
+          "Spring Framework",
+          "Java"
+        ],
+        "status": "active"
+      }
+    ],
+    "timestamp": "2024-01-01T10:00:00Z"
+  },
+  "certifications/categories": {
+    "success": true,
+    "data": [
+      "Technical",
+      "Cloud",
+      "Database",
+      "DevOps",
+      "Security"
+    ],
+    "timestamp": "2024-01-01T10:00:00Z"
+  },
+  "skills-progression": {
+    "success": true,
+    "data": {
+      "timeline": [
+        {
+          "year": 2017,
+          "skills": [
+            {
+              "name": "Java",
+              "level": "intermediate",
+              "category": "Backend"
+            },
+            {
+              "name": "JavaScript",
+              "level": "beginner",
+              "category": "Frontend"
+            },
+            {
+              "name": "SQL",
+              "level": "intermediate",
+              "category": "Database"
+            }
+          ],
+          "education": "Master's Degree",
+          "certifications": []
+        },
+        {
+          "year": 2019,
+          "skills": [
+            {
+              "name": "Java",
+              "level": "advanced",
+              "category": "Backend"
+            },
+            {
+              "name": "Spring Boot",
+              "level": "intermediate",
+              "category": "Backend"
+            },
+            {
+              "name": "React",
+              "level": "intermediate",
+              "category": "Frontend"
+            },
+            {
+              "name": "PostgreSQL",
+              "level": "advanced",
+              "category": "Database"
+            }
+          ],
+          "education": "Master's Degree",
+          "certifications": [
+            "Oracle Certified Java Programmer"
+          ]
+        },
+        {
+          "year": 2021,
+          "skills": [
+            {
+              "name": "Java",
+              "level": "expert",
+              "category": "Backend"
+            },
+            {
+              "name": "Spring Boot",
+              "level": "expert",
+              "category": "Backend"
+            },
+            {
+              "name": "React",
+              "level": "expert",
+              "category": "Frontend"
+            },
+            {
+              "name": "Docker",
+              "level": "advanced",
+              "category": "DevOps"
+            },
+            {
+              "name": "Kubernetes",
+              "level": "intermediate",
+              "category": "DevOps"
+            }
+          ],
+          "education": "Master's Degree",
+          "certifications": [
+            "Oracle Certified Java Programmer",
+            "Spring Professional Certification"
+          ]
+        },
+        {
+          "year": 2024,
+          "skills": [
+            {
+              "name": "Java",
+              "level": "expert",
+              "category": "Backend"
+            },
+            {
+              "name": "Spring Boot",
+              "level": "expert",
+              "category": "Backend"
+            },
+            {
+              "name": "React",
+              "level": "expert",
+              "category": "Frontend"
+            },
+            {
+              "name": "TypeScript",
+              "level": "advanced",
+              "category": "Frontend"
+            },
+            {
+              "name": "Docker",
+              "level": "expert",
+              "category": "DevOps"
+            },
+            {
+              "name": "Kubernetes",
+              "level": "advanced",
+              "category": "DevOps"
+            },
+            {
+              "name": "AWS",
+              "level": "advanced",
+              "category": "Cloud"
+            }
+          ],
+          "education": "Master's Degree",
+          "certifications": [
+            "AWS Certified Solutions Architect",
+            "Certified Kubernetes Administrator",
+            "Oracle Certified Java Programmer",
+            "Spring Professional Certification"
+          ]
+        }
+      ],
+      "categories": [
+        {
+          "name": "Backend",
+          "skills": [
+            "Java",
+            "Spring Boot",
+            "Node.js",
+            "Python"
+          ],
+          "progression": [
+            {
+              "year": 2017,
+              "count": 2
+            },
+            {
+              "year": 2019,
+              "count": 3
+            },
+            {
+              "year": 2021,
+              "count": 4
+            },
+            {
+              "year": 2024,
+              "count": 6
+            }
+          ]
+        },
+        {
+          "name": "Frontend",
+          "skills": [
+            "JavaScript",
+            "React",
+            "TypeScript",
+            "HTML/CSS"
+          ],
+          "progression": [
+            {
+              "year": 2017,
+              "count": 2
+            },
+            {
+              "year": 2019,
+              "count": 3
+            },
+            {
+              "year": 2021,
+              "count": 4
+            },
+            {
+              "year": 2024,
+              "count": 5
+            }
+          ]
+        },
+        {
+          "name": "DevOps",
+          "skills": [
+            "Docker",
+            "Kubernetes",
+            "AWS",
+            "Jenkins"
+          ],
+          "progression": [
+            {
+              "year": 2017,
+              "count": 0
+            },
+            {
+              "year": 2019,
+              "count": 1
+            },
+            {
+              "year": 2021,
+              "count": 2
+            },
+            {
+              "year": 2024,
+              "count": 4
+            }
+          ]
+        }
+      ]
+    },
+    "timestamp": "2024-01-01T10:00:00Z"
+  },
+  "contact": {
+    "success": true,
+    "data": {
+      "id": "056c",
+      "submittedAt": "2024-01-01T10:00:00Z"
+    },
+    "message": "Message sent successfully",
+    "timestamp": "2024-01-01T10:00:00Z"
+  }
+}

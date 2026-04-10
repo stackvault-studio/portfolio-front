@@ -1,0 +1,1756 @@
+{
+  "companyName": "VERMEG",
+  "description": {
+    "en": "As R&D engineer At Vermeg, I contributed extensively to the evolution of the Palmyra framework, working on both strategic projects and transversal enhancements. My experience spans BPM engines, cloud-native microservices, messaging systems, security platforms, and AI-driven tools, with a strong focus on scalability, integration, and enterprise-grade performance.",
+    "fr": "Comme un Ingénieur R&D Chez Vermeg, j’ai largement contribué à l’évolution du framework Palmyra, en participant à des projets stratégiques ainsi qu’à des améliorations transversales. Mon expérience couvre les moteurs BPM, les microservices cloud-native, les systèmes de messagerie, les plateformes de sécurité et les outils IA, avec un fort accent sur la scalabilité, l’intégration et la performance de niveau entreprise."
+  },
+  "companyLogo": null,
+  "startDate": "2019-09-01",
+  "endDate": "2024-05-31",
+  "position": {
+    "en": "FullStack Java Engineer",
+    "fr": "Ingénieur Java FullStack"
+  },
+  "active": false,
+  "location": {
+    "id": 2002,
+    "country": {
+      "en": "Tunisia",
+      "fr": "Tunisie"
+    },
+    "city": {
+      "en": "Tunis",
+      "fr": "Tunis"
+    }
+  },
+  "projects": [
+    {
+      "id": 7002,
+      "projectName": "Apache Camel in the cloud PoC",
+      "projectDescription": {
+        "en": "This project aimed to evaluate the scalability and performance of Apache Camel in cloud-native environments. It involved deploying Camel routes on Azure Kubernetes Services (AKS), configuring containerized pipelines, and testing large-scale data routing under stress conditions. The study validated Camel’s ability to handle high-throughput message flows, demonstrated horizontal scalability through dynamic pod scaling, and provided recommendations for adopting Camel in enterprise-grade cloud architectures.",
+        "fr": "Ce projet visait à évaluer la scalabilité et la performance d’Apache Camel dans des environnements cloud-native. Il a consisté à déployer des routes Camel sur Azure Kubernetes Services (AKS), à configurer des pipelines conteneurisés et à tester le routage de données à grande échelle dans des conditions de charge. L’étude a validé la capacité de Camel à gérer des flux de messages à haut débit, a démontré la scalabilité horizontale via le scaling dynamique des pods et a fourni des recommandations pour l’adoption de Camel dans des architectures cloud de niveau entreprise."
+      },
+      "teamSize": "1-3",
+      "clients": [
+        {
+          "id": 1,
+          "name": "Palmyra R&D"
+        }
+      ],
+      "startDate": "2019-09-01T00:00:00Z",
+      "endDate": "2020-06-01T00:00:00Z",
+      "methodology": "AGILE",
+      "responsibilities": [
+        {
+          "id": 11001,
+          "description": {
+            "en": "Designed and executed proof-of-concept to evaluate Apache Camel scalability in Kubernetes and cloud environments.",
+            "fr": "Conception et exécution d’un proof-of-concept pour évaluer la scalabilité d’Apache Camel dans des environnements Kubernetes et cloud."
+          }
+        },
+        {
+          "id": 11002,
+          "description": {
+            "en": "Configured Azure Kubernetes Services (AKS) clusters to deploy and monitor Apache Camel routes under high-load scenarios.",
+            "fr": "Configuration de clusters Azure Kubernetes Services (AKS) pour déployer et surveiller les routes Apache Camel dans des scénarios de forte charge."
+          }
+        },
+        {
+          "id": 11003,
+          "description": {
+            "en": "Implemented large-scale data routing pipelines using Apache Camel components to test throughput and resilience.",
+            "fr": "Mise en œuvre de pipelines de routage de données à grande échelle avec les composants Apache Camel pour tester le débit et la résilience."
+          }
+        },
+        {
+          "id": 11004,
+          "description": {
+            "en": "Conducted stress and performance tests to benchmark Camel’s message handling capabilities in containerized environments.",
+            "fr": "Réalisation de tests de charge et de performance pour évaluer les capacités de traitement de messages de Camel en environnements conteneurisés."
+          }
+        },
+        {
+          "id": 11005,
+          "description": {
+            "en": "Documented findings and provided recommendations for adopting Apache Camel in enterprise-grade cloud deployments.",
+            "fr": "Documentation des résultats et recommandations pour l’adoption d’Apache Camel dans des déploiements cloud de niveau entreprise."
+          }
+        }
+      ],
+      "achievements": [
+        {
+          "id": 12001,
+          "description": {
+            "en": "Validated Apache Camel’s ability to handle high-throughput data routing in Azure Kubernetes Services with minimal latency.",
+            "fr": "Validation de la capacité d’Apache Camel à gérer un routage de données à haut débit dans Azure Kubernetes Services avec une latence minimale."
+          }
+        },
+        {
+          "id": 12002,
+          "description": {
+            "en": "Successfully demonstrated horizontal scalability of Camel routes by dynamically scaling pods in Kubernetes.",
+            "fr": "Démonstration réussie de la scalabilité horizontale des routes Camel en augmentant dynamiquement les pods dans Kubernetes."
+          }
+        },
+        {
+          "id": 12003,
+          "description": {
+            "en": "Implemented monitoring and logging strategies to track message flow and performance metrics across distributed nodes.",
+            "fr": "Mise en œuvre de stratégies de monitoring et de logging pour suivre le flux de messages et les métriques de performance sur des nœuds distribués."
+          }
+        },
+        {
+          "id": 12004,
+          "description": {
+            "en": "Produced technical documentation and comparative analysis to guide future adoption of Apache Camel in cloud-native architectures.",
+            "fr": "Production de documentation technique et d’analyses comparatives pour orienter l’adoption future d’Apache Camel dans des architectures cloud-native."
+          }
+        },
+        {
+          "id": 12005,
+          "description": {
+            "en": "Facilitated knowledge transfer sessions to R&D team on Camel integration patterns and Kubernetes deployment strategies.",
+            "fr": "Organisation de sessions de transfert de connaissances pour l’équipe R&D sur les patterns d’intégration Camel et les stratégies de déploiement Kubernetes."
+          }
+        }
+      ],
+      "technologies": [
+        {
+          "id": 13001,
+          "name": "Apache Camel",
+          "coveredTopic": "Routing, Integration Patterns, Data Handling",
+          "description": {
+            "en": "Hands-on expertise in Apache Camel for building scalable routing pipelines and applying enterprise integration patterns.",
+            "fr": "Expertise pratique d’Apache Camel pour construire des pipelines de routage scalables et appliquer des patterns d’intégration d’entreprise."
+          },
+          "technology": "BACKEND",
+          "rate": 9,
+          "project": 7003
+        },
+        {
+          "id": 13002,
+          "name": "Kubernetes",
+          "coveredTopic": "Pod Scaling, Deployment Strategies, Monitoring",
+          "description": {
+            "en": "Experience in deploying and scaling applications in Kubernetes clusters with monitoring and resilience strategies.",
+            "fr": "Expérience dans le déploiement et la scalabilité des applications dans des clusters Kubernetes avec stratégies de monitoring et de résilience."
+          },
+          "technology": "DEVOPS",
+          "rate": 8,
+          "project": 7003
+        },
+        {
+          "id": 13003,
+          "name": "Azure Kubernetes Services (AKS)",
+          "coveredTopic": "Cloud Deployment, Cluster Management",
+          "description": {
+            "en": "Configured and managed AKS clusters to host Apache Camel workloads and validate cloud-native scalability.",
+            "fr": "Configuration et gestion de clusters AKS pour héberger les workloads Apache Camel et valider la scalabilité cloud-native."
+          },
+          "technology": "CLOUD",
+          "rate": 8,
+          "project": 7003
+        },
+        {
+          "id": 13004,
+          "name": "Docker",
+          "coveredTopic": "Containerization, Image Management",
+          "description": {
+            "en": "Built and optimized Docker images for Apache Camel deployments in Kubernetes environments.",
+            "fr": "Construction et optimisation d’images Docker pour les déploiements Apache Camel dans des environnements Kubernetes."
+          },
+          "technology": "DEVOPS",
+          "rate": 7,
+          "project": 7003
+        },
+        {
+          "id": 13005,
+          "name": "JUnit",
+          "coveredTopic": "Unit Testing, Integration Testing",
+          "description": {
+            "en": "Developed unit and integration tests to validate Camel route correctness and performance under load.",
+            "fr": "Développement de tests unitaires et d’intégration pour valider la correction et la performance des routes Camel sous charge."
+          },
+          "technology": "TESTING",
+          "rate": 8,
+          "project": 7003
+        },
+        {
+          "id": 13006,
+          "name": "Maven",
+          "coveredTopic": "Build Automation, Dependency Management",
+          "description": {
+            "en": "Extensive use of Maven for building Camel projects, managing dependencies, and packaging for Kubernetes deployment.",
+            "fr": "Utilisation intensive de Maven pour la construction des projets Camel, la gestion des dépendances et le packaging pour déploiement Kubernetes."
+          },
+          "technology": "TOOLS",
+          "rate": 9,
+          "project": 7003
+        },
+        {
+          "id": 13007,
+          "name": "Documentation Tools",
+          "coveredTopic": "JIRA, Confluence, PowerPoint",
+          "description": {
+            "en": "Used JIRA for issue tracking, Confluence for technical documentation, and PowerPoint for stakeholder presentations.",
+            "fr": "Utilisation de JIRA pour le suivi des tickets, Confluence pour la documentation technique et PowerPoint pour les présentations aux parties prenantes."
+          },
+          "technology": "DOCUMENTATION",
+          "rate": 8,
+          "project": 7003
+        }
+      ]
+    },
+    {
+      "id": 7003,
+      "projectName": "ACTIVITI Workflow Migration v5 to v6",
+      "projectDescription": {
+        "en": "This project focused on migrating a client’s workflow engine (Credit Agricole) from Activiti V5 to V6. The work involved analyzing legacy BPMN processes, understanding the core framework features such as asynchronous executions and activity types (service tasks, user tasks, call activities, and gateways), and refactoring models to ensure compatibility with the new engine. Migration scripts were implemented to preserve process definitions and runtime data, while minimizing downtime and ensuring smooth adoption by the client’s technical teams.",
+        "fr": "Ce projet a consisté à migrer le moteur de workflow d’un client (Crédit Agricole) de Activiti V5 vers V6. Le travail a impliqué l’analyse des processus BPMN existants, la compréhension des fonctionnalités clés du framework telles que les exécutions asynchrones et les types d’activités (tâches service, tâches utilisateur, activités d’appel et passerelles), ainsi que la refactorisation des modèles pour garantir la compatibilité avec le nouveau moteur. Des scripts de migration ont été mis en œuvre afin de préserver les définitions de processus et les données d’exécution, tout en réduisant les interruptions et en assurant une adoption fluide par les équipes techniques du client."
+      },
+      "teamSize": "1-3",
+      "clients": [
+        {
+          "id": 2,
+          "name": "Crédit Agricole"
+        }
+      ],
+      "startDate": "2020-07-01T00:00:00Z",
+      "endDate": "2020-12-31T00:00:00Z",
+      "methodology": "AGILE",
+      "responsibilities": [
+        {
+          "id": 14001,
+          "description": {
+            "en": "Analyzed legacy Activiti V5 processes and designed migration strategy to Activiti V6 for client project (Credit Agricole).",
+            "fr": "Analyse des processus Activiti V5 existants et conception d’une stratégie de migration vers Activiti V6 pour le projet client (Crédit Agricole)."
+          }
+        },
+        {
+          "id": 14002,
+          "description": {
+            "en": "Studied core Activiti framework internals including async executions and multiple activity types (service, user, call, gateways).",
+            "fr": "Étude des mécanismes internes du framework Activiti incluant les exécutions asynchrones et les différents types d’activités (service, utilisateur, appel, passerelles)."
+          }
+        },
+        {
+          "id": 14003,
+          "description": {
+            "en": "Refactored BPMN models to ensure compatibility with Activiti V6 execution engine.",
+            "fr": "Refactorisation des modèles BPMN afin d’assurer la compatibilité avec le moteur d’exécution Activiti V6."
+          }
+        },
+        {
+          "id": 14004,
+          "description": {
+            "en": "Implemented and validated migration scripts to preserve process definitions and runtime data.",
+            "fr": "Mise en œuvre et validation de scripts de migration pour préserver les définitions de processus et les données d’exécution."
+          }
+        },
+        {
+          "id": 14005,
+          "description": {
+            "en": "Collaborated with client technical teams to test and deploy upgraded workflow engine with minimal disruption.",
+            "fr": "Collaboration avec les équipes techniques du client pour tester et déployer le moteur de workflow mis à jour avec un minimum de perturbations."
+          }
+        }
+      ],
+      "achievements": [
+        {
+          "id": 15001,
+          "description": {
+            "en": "Successfully migrated Activiti from V5 to V6 ensuring backward compatibility and preserving existing business processes.",
+            "fr": "Migration réussie d’Activiti de la version V5 à V6 en garantissant la compatibilité rétroactive et la préservation des processus métier existants."
+          }
+        },
+        {
+          "id": 15002,
+          "description": {
+            "en": "Gained deep understanding of Activiti core concepts including async executions and gateway types (parallel, exclusive, inclusive).",
+            "fr": "Acquisition d’une compréhension approfondie des concepts clés d’Activiti incluant les exécutions asynchrones et les types de passerelles (parallèle, exclusive, inclusive)."
+          }
+        },
+        {
+          "id": 15003,
+          "description": {
+            "en": "Minimized downtime during migration by carefully planning and executing transition steps.",
+            "fr": "Réduction du temps d’arrêt lors de la migration grâce à une planification et une exécution minutieuses des étapes de transition."
+          }
+        },
+        {
+          "id": 15004,
+          "description": {
+            "en": "Delivered technical documentation and migration guidelines to client teams for future reference.",
+            "fr": "Fourniture de documentation technique et de guides de migration aux équipes du client pour référence future."
+          }
+        },
+        {
+          "id": 15005,
+          "description": {
+            "en": "Established trust with client (Credit Agricole) by resolving complex migration challenges in a critical project.",
+            "fr": "Établissement d’une relation de confiance avec le client (Crédit Agricole) en résolvant des défis complexes de migration dans un projet critique."
+          }
+        }
+      ],
+      "technologies": [
+        {
+          "id": 16001,
+          "name": "Activiti V5",
+          "coveredTopic": "Legacy BPMN Engine",
+          "description": {
+            "en": "Hands-on experience analyzing and maintaining legacy Activiti V5 processes before migration.",
+            "fr": "Expérience pratique dans l’analyse et la maintenance des processus Activiti V5 avant migration."
+          },
+          "technology": "BPM",
+          "rate": 7,
+          "project": 7003
+        },
+        {
+          "id": 16002,
+          "name": "Activiti V6",
+          "coveredTopic": "Upgraded BPMN Engine",
+          "description": {
+            "en": "Proficiency in Activiti V6 features including async executions, service-user tasks, and gateway handling.",
+            "fr": "Maîtrise des fonctionnalités d’Activiti V6 incluant les exécutions asynchrones, les tâches service-utilisateur et la gestion des passerelles."
+          },
+          "technology": "BPM",
+          "rate": 8,
+          "project": 7003
+        },
+        {
+          "id": 16003,
+          "name": "Activiti",
+          "coveredTopic": "Service Tasks, User Tasks, Gateways",
+          "description": {
+            "en": "Developed and refactored BPMN models with multiple activity types ensuring compatibility with Activiti V6.",
+            "fr": "Développement et refactorisation de modèles BPMN avec différents types d’activités garantissant la compatibilité avec Activiti V6."
+          },
+          "technology": "BPM",
+          "rate": 8,
+          "project": 7003
+        },
+        {
+          "id": 16004,
+          "name": "JUnit",
+          "coveredTopic": "Unit Testing, Migration Validation",
+          "description": {
+            "en": "Created unit tests to validate migration scripts and ensure process execution correctness.",
+            "fr": "Création de tests unitaires pour valider les scripts de migration et garantir la correction de l’exécution des processus."
+          },
+          "technology": "TESTING",
+          "rate": 7,
+          "project": 7003
+        },
+        {
+          "id": 16005,
+          "name": "Maven",
+          "coveredTopic": "Build Automation, Dependency Management",
+          "description": {
+            "en": "Used Maven extensively to manage dependencies and build migration-ready Activiti projects.",
+            "fr": "Utilisation intensive de Maven pour gérer les dépendances et construire des projets Activiti prêts pour la migration."
+          },
+          "technology": "TOOLS",
+          "rate": 8,
+          "project": 7003
+        }
+      ]
+    },
+    {
+      "id": 7004,
+      "projectName": "Workflow Engines PoC",
+      "projectDescription": {
+        "en": "This project involved conducting a comparative proof-of-concept of multiple BPM engines (Camunda, Flowable, Activiti, and jBPM) within the R&D department. The study included benchmarks, stress tests, licensing analysis, and backward compatibility evaluation with the existing framework. An adapter-based architecture was designed to keep workflow engines pluggable, enabling seamless activation or deactivation with minimal downtime. The project provided strategic recommendations and technical documentation that guided the adoption of Camunda as the preferred engine.",
+        "fr": "Ce projet a consisté en la réalisation d’un proof-of-concept comparatif de plusieurs moteurs BPM (Camunda, Flowable, Activiti et jBPM) au sein du département R&D. L’étude a inclus des benchmarks, des tests de charge, une analyse des licences et une évaluation de la compatibilité rétroactive avec le framework existant. Une architecture basée sur l’adaptateur a été conçue pour garantir la modularité des moteurs de workflow, permettant leur activation ou désactivation transparente avec un minimum d’interruption. Le projet a fourni des recommandations stratégiques et une documentation technique ayant conduit à l’adoption de Camunda comme moteur privilégié."
+      },
+      "teamSize": "1-3",
+      "clients": [
+        {
+          "id": 1,
+          "name": "Palmyra R&D"
+        }
+      ],
+      "startDate": "2021-01-01T00:00:00Z",
+      "endDate": "2022-06-30T00:00:00Z",
+      "methodology": "AGILE",
+      "responsibilities": [
+        {
+          "id": 8002,
+          "description": {
+            "en": "Conducted deep comparative PoC of Camunda, Flowable, Activiti and JBpm including benchmarks, stress tests and licensing analysis.",
+            "fr": "Réalisation d’un PoC comparatif approfondi (Camunda, Flowable, Activiti) incluant benchmarks, stress tests et analyse des licences."
+          }
+        },
+        {
+          "id": 8003,
+          "description": {
+            "en": "Designed and implemented adapter-based architecture ensuring workflow engines remain pluggable, enabling seamless activation-deactivation with minimal downtime.",
+            "fr": "Conception et mise en œuvre d’une architecture basée sur l’adaptateur garantissant la modularité des moteurs de workflow, permettant leur activation-désactivation transparente avec un minimum d’interruption."
+          }
+        },
+        {
+          "id": 8004,
+          "description": {
+            "en": "Performed backward compatibility study between legacy workflow (Activiti v6) engine and new candidates to ensure smooth migration within existing framework.",
+            "fr": "Étude approfondie de la compatibilité rétroactive entre le moteur de workflow existant (Activiti v6) et les nouveaux candidats afin d’assurer une migration fluide dans le cadre actuel."
+          }
+        },
+        {
+          "id": 8005,
+          "description": {
+            "en": "Developed comprehensive metrics framework to evaluate workflow engines across performance, scalability, maintainability, and licensing dimensions.",
+            "fr": "Développement d’un cadre de métriques complet pour évaluer les moteurs de workflow selon les critères de performance, scalabilité, maintenabilité et licences."
+          }
+        },
+        {
+          "id": 8006,
+          "description": {
+            "en": "Collaborated with other R&D team to integrate workflow engines into enterprise framework following SOLID principles, ensuring long-term extensibility.",
+            "fr": "Collaboration avec le reste de l’équipe R&D pour intégrer les moteurs de workflow dans le framework d’entreprise en respectant les principes SOLID, garantissant une extensibilité à long terme."
+          }
+        },
+        {
+          "id": 8007,
+          "description": {
+            "en": "Conducted stress and resilience testing to validate engine stability under high-load scenarios and failover conditions.",
+            "fr": "Réalisation de tests de charge et de résilience afin de valider la stabilité des moteurs dans des scénarios de forte utilisation et de basculement."
+          }
+        },
+        {
+          "id": 8008,
+          "description": {
+            "en": "Documented comparative analysis results and provided recommendations to stakeholders for strategic engine adoption.",
+            "fr": "Documentation des résultats de l’analyse comparative et présentation de recommandations aux parties prenantes pour l’adoption stratégique du moteur."
+          }
+        }
+      ],
+      "achievements": [
+        {
+          "id": 9001,
+          "description": {
+            "en": "Successfully delivered comprehensive comparative study of BPM engines (Camunda, Flowable, Activiti and JBpm), documenting advantages and disadvantages, leading to Camunda adoption.",
+            "fr": "Réalisation réussie d’une étude comparative complète des moteurs BPM (Camunda, Flowable, Activiti et JBpm), avec documentation des avantages et inconvénients, ayant conduit à l’adoption de Camunda."
+          }
+        },
+        {
+          "id": 9002,
+          "description": {
+            "en": "Facilitated decision-making through animated presentations and technical workshops, ensuring stakeholder alignment on engine selection.",
+            "fr": "Animation de présentations et d’ateliers techniques pour faciliter la prise de décision et garantir l’alignement des parties prenantes sur le choix du moteur."
+          }
+        },
+        {
+          "id": 9003,
+          "description": {
+            "en": "Implemented adapter-based layer enabling seamless switching between BPM engines with minimal downtime and transparent compatibility.",
+            "fr": "Mise en œuvre d’une couche basée sur l’adaptateur permettant de basculer entre les moteurs BPM avec un minimum d’interruption et une compatibilité transparente."
+          }
+        },
+        {
+          "id": 9004,
+          "description": {
+            "en": "Developed and executed unit and integration tests ensuring robustness, reliability, and backward compatibility of the new workflow engine.",
+            "fr": "Développement et exécution de tests unitaires et d’intégration garantissant la robustesse, la fiabilité et la compatibilité rétroactive du nouveau moteur de workflow."
+          }
+        },
+        {
+          "id": 9005,
+          "description": {
+            "en": "Produced consistent technical and functional documentation to support developers, architects, and business analysts during migration and future maintenance.",
+            "fr": "Production d’une documentation technique et fonctionnelle cohérente pour accompagner les développeurs, architectes et analystes métier lors de la migration et de la maintenance future."
+          }
+        },
+        {
+          "id": 9006,
+          "description": {
+            "en": "Achieved measurable performance improvements with Camunda, including faster database exchanges and enhanced scalability under stress tests.",
+            "fr": "Obtention d’améliorations de performance mesurables avec Camunda, notamment des échanges de base de données plus rapides et une meilleure scalabilité lors des tests de charge."
+          }
+        },
+        {
+          "id": 9007,
+          "description": {
+            "en": "Established best practices for pluggable workflow engine integration following SOLID principles, ensuring long-term extensibility of the framework.",
+            "fr": "Mise en place de bonnes pratiques pour l’intégration modulaire des moteurs de workflow selon les principes SOLID, garantissant l’extensibilité à long terme du framework."
+          }
+        },
+        {
+          "id": 9008,
+          "description": {
+            "en": "Conducted knowledge transfer sessions and training for R&D team members to ensure smooth adoption of the new BPM engine.",
+            "fr": "Organisation de sessions de transfert de connaissances et de formation pour l’équipe R&D afin d’assurer une adoption fluide du nouveau moteur BPM."
+          }
+        },
+        {
+          "id": 9009,
+          "description": {
+            "en": "Implemented support for multiple deployment strategies including standalone web applications, enterprise deployments, and Spring Boot starter dependency integration.",
+            "fr": "Mise en œuvre du support de multiples stratégies de déploiement incluant applications web autonomes, déploiements en entreprise et intégration en tant que dépendance Spring Boot starter."
+          }
+        },
+        {
+          "id": 9010,
+          "description": {
+            "en": "Delivered flexible packaging options enabling BPM engine integration across diverse environments while maintaining consistency and transparency in process execution.",
+            "fr": "Fourniture d’options de packaging flexibles permettant l’intégration du moteur BPM dans divers environnements tout en maintenant la cohérence et la transparence dans l’exécution des processus."
+          }
+        },
+        {
+          "id": 9011,
+          "description": {
+            "en": "Optimized deployment pipelines to reduce downtime and ensure smooth rollout of workflow engine updates across different environments.",
+            "fr": "Optimisation des pipelines de déploiement afin de réduire les interruptions et d’assurer un déploiement fluide des mises à jour du moteur de workflow dans différents environnements."
+          }
+        }
+      ],
+      "technologies": [
+        {
+          "id": 10001,
+          "name": "Java",
+          "coveredTopic": "Core, Concurrency, Streams, Collections",
+          "description": {
+            "en": "Strong proficiency in Java core APIs including concurrency utilities, stream processing, and collection framework.",
+            "fr": "Solide maîtrise des API Java de base incluant les utilitaires de concurrence, le traitement par flux et le framework de collections."
+          },
+          "technology": "JAVA",
+          "rate": 9,
+          "project": 7002
+        },
+        {
+          "id": 10002,
+          "name": "Spring Boot",
+          "coveredTopic": "Dependency Injection, Transactional, Starter Modules, REST APIs",
+          "description": {
+            "en": "Experience in building modular microservices using Spring Boot with starter dependencies and RESTful APIs.",
+            "fr": "Expérience dans la création de microservices modulaires avec Spring Boot, dépendances starter et APIs RESTful."
+          },
+          "technology": "SPRING",
+          "rate": 8,
+          "project": 7002
+        },
+        {
+          "id": 10003,
+          "name": "Camunda",
+          "coveredTopic": "BPMN Workflow Engine, Process execution migration-modification, Legacy workflow engine migration, Zeebee Cloud engine, Asyncronous before-after",
+          "description": {
+            "en": "Hands-on expertise in Camunda with strong proficiency in BPMN modeling, database integration, and scalability.",
+            "fr": "Expertise pratique de Camunda avec une solide maîtrise du BPMN, de l’intégration base de données et de la scalabilité."
+          },
+          "technology": "BPM",
+          "rate": 9,
+          "project": 7002
+        },
+        {
+          "id": 10004,
+          "name": "Activiti",
+          "coveredTopic": "BPMN Workflow Engine, Asyncronous execution, migration v5 to v6",
+          "description": {
+            "en": "Extensive experience with Activiti engine including process execution, integration, and benchmarking.",
+            "fr": "Expérience approfondie avec le moteur Activiti incluant l’exécution des processus, l’intégration et le benchmarking."
+          },
+          "technology": "BPM",
+          "rate": 9,
+          "project": 7002
+        },
+        {
+          "id": 10005,
+          "name": "Flowable",
+          "coveredTopic": "BPMN Workflow Engine",
+          "description": {
+            "en": "Practical evaluation of Flowable engine with limited adoption due to feature gaps and lower performance.",
+            "fr": "Évaluation pratique du moteur Flowable avec adoption limitée en raison de lacunes fonctionnelles et de performances moindres."
+          },
+          "technology": "BPM",
+          "rate": 3,
+          "project": 7002
+        },
+        {
+          "id": 10006,
+          "name": "jBPM",
+          "coveredTopic": "BPMN Workflow Engine",
+          "description": {
+            "en": "Explored jBPM capabilities with partial integration tests, identified constraints in enterprise adoption.",
+            "fr": "Exploration des capacités de jBPM avec tests d’intégration partiels, identification de contraintes pour l’adoption en entreprise."
+          },
+          "technology": "BPM",
+          "rate": 3,
+          "project": 7002
+        },
+        {
+          "id": 10007,
+          "name": "JUnit",
+          "coveredTopic": "Unit Testing Framework",
+          "description": {
+            "en": "Developed unit tests with JUnit ensuring robustness, reliability, and backward compatibility of workflow engine integration.",
+            "fr": "Développement de tests unitaires avec JUnit garantissant la robustesse, la fiabilité et la compatibilité rétroactive de l’intégration du moteur de workflow."
+          },
+          "technology": "TESTING",
+          "rate": 8,
+          "project": 7002
+        },
+        {
+          "id": 10008,
+          "name": "Containerization & Deployment",
+          "coveredTopic": "Docker, Kubernetes, CI-CD",
+          "description": {
+            "en": "Implemented containerized deployments and CI-CD pipelines for flexible rollout strategies across environments.",
+            "fr": "Mise en œuvre de déploiements conteneurisés et de pipelines CI-CD pour des stratégies de déploiement flexibles dans divers environnements."
+          },
+          "technology": "DEVOPS",
+          "rate": 7,
+          "project": 7002
+        },
+        {
+          "id": 10009,
+          "name": "Design Patterns",
+          "coveredTopic": "Adapter, SOLID Principles",
+          "description": {
+            "en": "Applied adapter pattern and SOLID principles to design pluggable workflow engine architecture.",
+            "fr": "Application du patron adaptateur et des principes SOLID pour concevoir une architecture modulaire de moteur de workflow."
+          },
+          "technology": "ARCHITECTURE",
+          "rate": 9,
+          "project": 7002
+        },
+        {
+          "id": 10010,
+          "name": "Maven",
+          "coveredTopic": "Build Automation, Dependency Management",
+          "description": {
+            "en": "Extensive use of Maven for project build automation, dependency management, and starter module integration.",
+            "fr": "Utilisation intensive de Maven pour l’automatisation des builds, la gestion des dépendances et l’intégration des modules starter."
+          },
+          "technology": "TOOLS",
+          "rate": 9,
+          "project": 7002
+        },
+        {
+          "id": 10011,
+          "name": "JIRA",
+          "coveredTopic": "Issue Tracking, Agile Boards",
+          "description": {
+            "en": "Used JIRA for project management, issue tracking, and sprint planning within the R&D department.",
+            "fr": "Utilisation de JIRA pour la gestion de projet, le suivi des tickets et la planification des sprints au sein du département R&D."
+          },
+          "technology": "DOCUMENTATION",
+          "rate": 8,
+          "project": 7002
+        },
+        {
+          "id": 10012,
+          "name": "Confluence",
+          "coveredTopic": "Knowledge Base, Technical Documentation",
+          "description": {
+            "en": "Created and maintained technical and functional documentation in Confluence to support migration and future maintenance.",
+            "fr": "Création et maintenance de documentation technique et fonctionnelle dans Confluence pour accompagner la migration et la maintenance future."
+          },
+          "technology": "DOCUMENTATION",
+          "rate": 8,
+          "project": 7002
+        },
+        {
+          "id": 10013,
+          "name": "PowerPoint",
+          "coveredTopic": "Technical Presentations, Stakeholder Communication",
+          "description": {
+            "en": "Prepared comparative presentations and technical workshops using PowerPoint to facilitate decision-making on BPM engine adoption.",
+            "fr": "Préparation de présentations comparatives et d’ateliers techniques avec PowerPoint pour faciliter la prise de décision concernant l’adoption du moteur BPM."
+          },
+          "technology": "DOCUMENTATION",
+          "rate": 7,
+          "project": 7002
+        }
+      ]
+    },
+    {
+      "id": 7005,
+      "projectName": "Veggo",
+      "projectDescription": {
+        "en": "This project focused on building Spring Boot microservices for the Veggo platform, deployed on AWS Kubernetes with Docker images, to enable users to design their business processes through an intuitive BPMN.io modeler. It included handling Veggo client project dependencies, applying BPMN validation, and ensuring seamless integration with the Palmyra project data structures. The solution provided scalable, cloud-native process modeling capabilities with strong validation and interoperability.",
+        "fr": "Ce projet a consisté à développer des microservices Spring Boot pour la plateforme Veggo, déployés sur AWS Kubernetes avec des images Docker, afin de permettre aux utilisateurs de concevoir leurs processus métier via un modéliseur intuitif BPMN.io. Il a inclus la gestion des dépendances des projets clients Veggo, l’application de la validation BPMN et l’intégration transparente avec les structures de données du projet Palmyra. La solution a offert des capacités de modélisation de processus cloud-native, scalables, avec une validation robuste et une interopérabilité renforcée."
+      },
+      "teamSize": "20-25",
+      "clients": [
+        {
+          "id": 3,
+          "name": "Veggo"
+        }
+      ],
+      "startDate": "2022-06-01T00:00:00Z",
+      "endDate": "2022-12-31T00:00:00Z",
+      "methodology": "AGILE",
+      "responsibilities": [
+        {
+          "id": 17001,
+          "description": {
+            "en": "Developed Spring Boot microservices enabling Veggo platform users to design business processes with BPMN.io modeler.",
+            "fr": "Développement de microservices Spring Boot permettant aux utilisateurs de la plateforme Veggo de concevoir leurs processus métier avec le modéliseur BPMN.io."
+          }
+        },
+        {
+          "id": 17002,
+          "description": {
+            "en": "Deployed microservices on AWS Kubernetes clusters using Docker images to ensure scalability and reliability.",
+            "fr": "Déploiement des microservices sur des clusters Kubernetes AWS avec des images Docker afin d’assurer scalabilité et fiabilité."
+          }
+        },
+        {
+          "id": 17003,
+          "description": {
+            "en": "Integrated BPMN validation mechanisms to guarantee correctness and compliance of designed workflows.",
+            "fr": "Intégration de mécanismes de validation BPMN pour garantir la correction et la conformité des workflows conçus."
+          }
+        },
+        {
+          "id": 17004,
+          "description": {
+            "en": "Handled Veggo client project dependencies and ensured seamless integration with Palmyra project data structures.",
+            "fr": "Gestion des dépendances des projets clients Veggo et intégration transparente avec les structures de données du projet Palmyra."
+          }
+        },
+        {
+          "id": 17005,
+          "description": {
+            "en": "Provided technical documentation and support for business users to adopt BPMN-based process modeling.",
+            "fr": "Fourniture de documentation technique et support aux utilisateurs métier pour l’adoption de la modélisation de processus basée sur BPMN."
+          }
+        }
+      ],
+      "achievements": [
+        {
+          "id": 18001,
+          "description": {
+            "en": "Enabled Veggo platform users to intuitively design and validate BPMN workflows with BPMN.io integration.",
+            "fr": "Permis aux utilisateurs de la plateforme Veggo de concevoir et valider intuitivement des workflows BPMN grâce à l’intégration BPMN.io."
+          }
+        },
+        {
+          "id": 18002,
+          "description": {
+            "en": "Achieved seamless integration between Veggo microservices and Palmyra project data structures, ensuring interoperability.",
+            "fr": "Réalisation d’une intégration transparente entre les microservices Veggo et les structures de données du projet Palmyra, garantissant l’interopérabilité."
+          }
+        },
+        {
+          "id": 18003,
+          "description": {
+            "en": "Improved scalability and reliability of Veggo platform by deploying microservices on AWS Kubernetes with Docker.",
+            "fr": "Amélioration de la scalabilité et de la fiabilité de la plateforme Veggo grâce au déploiement de microservices sur AWS Kubernetes avec Docker."
+          }
+        },
+        {
+          "id": 18004,
+          "description": {
+            "en": "Delivered BPMN validation framework ensuring compliance and reducing errors in client-designed processes.",
+            "fr": "Mise en place d’un cadre de validation BPMN garantissant la conformité et réduisant les erreurs dans les processus conçus par les clients."
+          }
+        },
+        {
+          "id": 18005,
+          "description": {
+            "en": "Provided documentation and training materials to support adoption of BPMN modeling across Veggo clients.",
+            "fr": "Fourniture de documentation et de supports de formation pour accompagner l’adoption de la modélisation BPMN auprès des clients Veggo."
+          }
+        }
+      ],
+      "technologies": [
+        {
+          "id": 19001,
+          "name": "Spring Boot",
+          "coveredTopic": "Microservices, REST APIs, Dependency Injection",
+          "description": {
+            "en": "Developed modular microservices with Spring Boot to support BPMN workflow design and validation.",
+            "fr": "Développement de microservices modulaires avec Spring Boot pour supporter la conception et la validation de workflows BPMN."
+          },
+          "technology": "SPRING",
+          "rate": 9,
+          "project": "Veggo BPMN Microservices Project"
+        },
+        {
+          "id": 19002,
+          "name": "BPMN.io",
+          "coveredTopic": "Process Modeling, Workflow Design",
+          "description": {
+            "en": "Integrated BPMN.io modeler to provide intuitive business process design capabilities for Veggo users.",
+            "fr": "Intégration du modéliseur BPMN.io pour offrir des capacités intuitives de conception de processus métier aux utilisateurs Veggo."
+          },
+          "technology": "BPM",
+          "rate": 8,
+          "project": "Veggo BPMN Microservices Project"
+        },
+        {
+          "id": 19003,
+          "name": "AWS Kubernetes",
+          "coveredTopic": "Cloud Deployment, Scalability",
+          "description": {
+            "en": "Deployed microservices on AWS Kubernetes clusters ensuring scalability and reliability of Veggo platform.",
+            "fr": "Déploiement de microservices sur des clusters Kubernetes AWS garantissant la scalabilité et la fiabilité de la plateforme Veggo."
+          },
+          "technology": "CLOUD",
+          "rate": 8,
+          "project": "Veggo BPMN Microservices Project"
+        },
+        {
+          "id": 19004,
+          "name": "Docker",
+          "coveredTopic": "Containerization, Image Management",
+          "description": {
+            "en": "Built and optimized Docker images for Veggo microservices deployed in Kubernetes environments.",
+            "fr": "Construction et optimisation d’images Docker pour les microservices Veggo déployés dans des environnements Kubernetes."
+          },
+          "technology": "DEVOPS",
+          "rate": 8,
+          "project": "Veggo BPMN Microservices Project"
+        },
+        {
+          "id": 19006,
+          "name": "Maven",
+          "coveredTopic": "Build Automation, Dependency Management",
+          "description": {
+            "en": "Extensively used Maven for building, packaging, and managing dependencies of Veggo microservices.",
+            "fr": "Utilisation intensive de Maven pour la construction, le packaging et la gestion des dépendances des microservices Veggo."
+          },
+          "technology": "TOOLS",
+          "rate": 9,
+          "project": "Veggo BPMN Microservices Project"
+        }
+      ]
+    },
+    {
+      "id": 7006,
+      "projectName": "Palmyra Ecosystem Enhancement with Distributed & Cloud Messaging Support",
+      "projectDescription": {
+        "en": "This project enriched the Palmyra framework with support for Apache Kafka and Amazon SQS messaging systems, integrating their open-source features into the Palmyra ecosystem and data structures. The solution provided unified messaging capabilities, improved scalability and resilience, and allowed clients to adopt distributed and cloud-based messaging seamlessly.",
+        "fr": "Ce projet a enrichi le framework Palmyra avec le support des systèmes de messagerie Apache Kafka et Amazon SQS, en intégrant leurs fonctionnalités open source dans l’écosystème et les structures de données Palmyra. La solution a offert des capacités de messagerie unifiées, amélioré la scalabilité et la résilience, et permis aux clients d’adopter la messagerie distribuée et cloud de manière transparente."
+      },
+      "teamSize": "1-3",
+      "clients": [
+        {
+          "id": 1,
+          "name": "Palmyra R&D"
+        }
+      ],
+      "startDate": "2023-01-01T00:00:00Z",
+      "endDate": "2023-03-31T00:00:00Z",
+      "methodology": "AGILE",
+      "responsibilities": [
+        {
+          "id": 20001,
+          "description": {
+            "en": "Extended Palmyra framework to support Apache Kafka and Amazon SQS messaging systems as per client requirements.",
+            "fr": "Extension du framework Palmyra pour supporter les systèmes de messagerie Apache Kafka et Amazon SQS conformément aux exigences des clients."
+          }
+        },
+        {
+          "id": 20002,
+          "description": {
+            "en": "Integrated open-source messaging features into Palmyra ecosystem ensuring compatibility with existing data structures.",
+            "fr": "Intégration des fonctionnalités open source de messagerie dans l’écosystème Palmyra en garantissant la compatibilité avec les structures de données existantes."
+          }
+        },
+        {
+          "id": 20003,
+          "description": {
+            "en": "Designed abstraction layer to unify messaging APIs and provide seamless switching between Kafka and SQS.",
+            "fr": "Conception d’une couche d’abstraction pour unifier les API de messagerie et permettre un basculement transparent entre Kafka et SQS."
+          }
+        },
+        {
+          "id": 20004,
+          "description": {
+            "en": "Implemented message validation, serialization, and error handling mechanisms within Palmyra framework.",
+            "fr": "Mise en œuvre de mécanismes de validation, de sérialisation et de gestion des erreurs des messages dans le framework Palmyra."
+          }
+        },
+        {
+          "id": 20005,
+          "description": {
+            "en": "Collaborated with client teams to test and deploy messaging integration in production environments.",
+            "fr": "Collaboration avec les équipes clients pour tester et déployer l’intégration de la messagerie dans les environnements de production."
+          }
+        }
+      ],
+      "achievements": [
+        {
+          "id": 21001,
+          "description": {
+            "en": "Successfully enabled Palmyra framework to fully support Apache Kafka and Amazon SQS messaging systems.",
+            "fr": "Activation réussie du framework Palmyra pour supporter pleinement les systèmes de messagerie Apache Kafka et Amazon SQS."
+          }
+        },
+        {
+          "id": 21002,
+          "description": {
+            "en": "Delivered unified messaging integration allowing clients to choose between Kafka and SQS without code changes.",
+            "fr": "Fourniture d’une intégration de messagerie unifiée permettant aux clients de choisir entre Kafka et SQS sans modification de code."
+          }
+        },
+        {
+          "id": 21003,
+          "description": {
+            "en": "Improved scalability and resilience of Palmyra ecosystem by leveraging distributed messaging features.",
+            "fr": "Amélioration de la scalabilité et de la résilience de l’écosystème Palmyra grâce aux fonctionnalités de messagerie distribuée."
+          }
+        },
+        {
+          "id": 21004,
+          "description": {
+            "en": "Provided technical documentation and guidelines for integrating messaging systems into client projects.",
+            "fr": "Fourniture de documentation technique et de guides pour l’intégration des systèmes de messagerie dans les projets clients."
+          }
+        },
+        {
+          "id": 21005,
+          "description": {
+            "en": "Facilitated adoption of Palmyra messaging integration by conducting workshops and training sessions with client teams.",
+            "fr": "Facilitation de l’adoption de l’intégration de messagerie Palmyra par l’organisation d’ateliers et de sessions de formation avec les équipes clients."
+          }
+        }
+      ],
+      "technologies": [
+        {
+          "id": 22001,
+          "name": "Apache Kafka",
+          "coveredTopic": "Distributed Messaging, Stream Processing",
+          "description": {
+            "en": "Integrated Apache Kafka into Palmyra framework to support distributed messaging and real-time data pipelines.",
+            "fr": "Intégration d’Apache Kafka dans le framework Palmyra pour supporter la messagerie distribuée et les pipelines de données en temps réel."
+          },
+          "technology": "MESSAGING",
+          "rate": 9,
+          "project": 7006
+        },
+        {
+          "id": 22002,
+          "name": "Amazon SQS",
+          "coveredTopic": "Queue Management, Cloud Messaging",
+          "description": {
+            "en": "Enabled Amazon SQS support in Palmyra framework for reliable cloud-based message queuing.",
+            "fr": "Activation du support Amazon SQS dans le framework Palmyra pour une gestion fiable des files de messages en cloud."
+          },
+          "technology": "MESSAGING",
+          "rate": 8,
+          "project": 7006
+        },
+        {
+          "id": 22003,
+          "name": "Spring Boot",
+          "coveredTopic": "Microservices, Messaging Integration",
+          "description": {
+            "en": "Developed Spring Boot microservices to integrate Kafka and SQS seamlessly with Palmyra ecosystem.",
+            "fr": "Développement de microservices Spring Boot pour intégrer Kafka et SQS de manière transparente avec l’écosystème Palmyra."
+          },
+          "technology": "SPRING",
+          "rate": 9,
+          "project": 7006
+        },
+        {
+          "id": 22004,
+          "name": "AWS Cloud",
+          "coveredTopic": "Deployment, Messaging Infrastructure",
+          "description": {
+            "en": "Configured AWS infrastructure to host SQS queues and integrate with Palmyra framework.",
+            "fr": "Configuration de l’infrastructure AWS pour héberger les files SQS et les intégrer avec le framework Palmyra."
+          },
+          "technology": "CLOUD",
+          "rate": 8,
+          "project": 7006
+        },
+        {
+          "id": 22005,
+          "name": "Docker & Kubernetes",
+          "coveredTopic": "Containerization, Orchestration",
+          "description": {
+            "en": "Deployed Palmyra messaging microservices in Docker containers orchestrated by Kubernetes clusters.",
+            "fr": "Déploiement des microservices de messagerie Palmyra dans des conteneurs Docker orchestrés par des clusters Kubernetes."
+          },
+          "technology": "DEVOPS",
+          "rate": 8,
+          "project": 7006
+        },
+        {
+          "id": 22006,
+          "name": "Maven",
+          "coveredTopic": "Build Automation, Dependency Management",
+          "description": {
+            "en": "Extensively used Maven for building and managing dependencies of messaging-enabled Palmyra modules.",
+            "fr": "Utilisation intensive de Maven pour la construction et la gestion des dépendances des modules Palmyra avec messagerie."
+          },
+          "technology": "TOOLS",
+          "rate": 9,
+          "project": 7006
+        },
+        {
+          "id": 22007,
+          "name": "JIRA",
+          "coveredTopic": "Issue Tracking, Agile Boards",
+          "description": {
+            "en": "Used JIRA for project management, issue tracking, and sprint planning during messaging integration.",
+            "fr": "Utilisation de JIRA pour la gestion de projet, le suivi des tickets et la planification des sprints lors de l’intégration de la messagerie."
+          },
+          "technology": "DOCUMENTATION",
+          "rate": 8,
+          "project": 7006
+        },
+        {
+          "id": 22008,
+          "name": "Confluence",
+          "coveredTopic": "Knowledge Base, Technical Documentation",
+          "description": {
+            "en": "Created and maintained technical documentation in Confluence to support Palmyra messaging integration.",
+            "fr": "Création et maintenance de documentation technique dans Confluence pour accompagner l’intégration de la messagerie Palmyra."
+          },
+          "technology": "DOCUMENTATION",
+          "rate": 8,
+          "project": 7006
+        }
+      ]
+    },
+    {
+      "id": 7007,
+      "projectName": "Palmyra Vulnerabilities Reference Platform",
+      "projectDescription": {
+        "en": "This project enriched the Palmyra framework with support for Apache Kafka and Amazon SQS messaging systems, integrating their open-source features into the Palmyra ecosystem and data structures. The solution provided unified messaging capabilities, improved scalability and resilience, and allowed clients to adopt distributed and cloud-based messaging seamlessly.",
+        "fr": "Ce projet a enrichi le framework Palmyra avec le support des systèmes de messagerie Apache Kafka et Amazon SQS, en intégrant leurs fonctionnalités open source dans l’écosystème et les structures de données Palmyra. La solution a offert des capacités de messagerie unifiées, amélioré la scalabilité et la résilience, et permis aux clients d’adopter la messagerie distribuée et cloud de manière transparente."
+      },
+      "teamSize": "1-3",
+      "clients": [
+        {
+          "id": 1,
+          "name": "Palmyra R&D"
+        }
+      ],
+      "startDate": "2023-04-01T00:00:00Z",
+      "endDate": "2023-08-30T00:00:00Z",
+      "methodology": "AGILE",
+      "responsibilities": [
+        {
+          "id": 23001,
+          "description": {
+            "en": "Designed and implemented backend services for a vulnerabilities reference platform to track issues in Palmyra dependencies.",
+            "fr": "Conception et mise en œuvre de services backend pour une plateforme de référence des vulnérabilités afin de suivre les problèmes dans les dépendances Palmyra."
+          }
+        },
+        {
+          "id": 23002,
+          "description": {
+            "en": "Integrated Maven and Sonar vulnerability detection features to automatically identify and catalog dependency risks.",
+            "fr": "Intégration des fonctionnalités de détection de vulnérabilités de Maven et Sonar pour identifier et cataloguer automatiquement les risques liés aux dépendances."
+          }
+        },
+        {
+          "id": 23003,
+          "description": {
+            "en": "Developed historical analysis module to provide context and evolution of each vulnerability over time.",
+            "fr": "Développement d’un module d’analyse historique pour fournir le contexte et l’évolution de chaque vulnérabilité dans le temps."
+          }
+        },
+        {
+          "id": 23004,
+          "description": {
+            "en": "Provided resolution strategies and best practices to QA and development teams for vulnerability remediation.",
+            "fr": "Fourniture de stratégies de résolution et de bonnes pratiques aux équipes QA et développement pour la remédiation des vulnérabilités."
+          }
+        },
+        {
+          "id": 23005,
+          "description": {
+            "en": "Ensured seamless integration of vulnerability platform with Palmyra ecosystem and data structures.",
+            "fr": "Assuré une intégration transparente de la plateforme de vulnérabilités avec l’écosystème et les structures de données Palmyra."
+          }
+        }
+      ],
+      "achievements": [
+        {
+          "id": 24001,
+          "description": {
+            "en": "Successfully delivered a centralized vulnerabilities reference platform improving QA and developer efficiency.",
+            "fr": "Livraison réussie d’une plateforme centralisée de référence des vulnérabilités améliorant l’efficacité des équipes QA et développement."
+          }
+        },
+        {
+          "id": 24002,
+          "description": {
+            "en": "Enabled proactive detection of dependency risks by leveraging Maven and Sonar features.",
+            "fr": "Activation de la détection proactive des risques liés aux dépendances grâce aux fonctionnalités Maven et Sonar."
+          }
+        },
+        {
+          "id": 24003,
+          "description": {
+            "en": "Provided historical vulnerability analysis helping teams understand root causes and long-term impact.",
+            "fr": "Fourniture d’analyses historiques des vulnérabilités aidant les équipes à comprendre les causes profondes et l’impact à long terme."
+          }
+        },
+        {
+          "id": 24004,
+          "description": {
+            "en": "Delivered actionable resolution strategies reducing remediation time and improving overall system security.",
+            "fr": "Livraison de stratégies de résolution concrètes réduisant le temps de remédiation et améliorant la sécurité globale du système."
+          }
+        },
+        {
+          "id": 24005,
+          "description": {
+            "en": "Strengthened Palmyra ecosystem by integrating vulnerability tracking and remediation support directly into its framework.",
+            "fr": "Renforcement de l’écosystème Palmyra par l’intégration du suivi des vulnérabilités et du support de remédiation directement dans son framework."
+          }
+        }
+      ],
+      "technologies": [
+        {
+          "id": 25001,
+          "name": "Maven",
+          "coveredTopic": "Dependency Management, Vulnerability Detection",
+          "description": {
+            "en": "Used Maven extensively to manage dependencies and leverage its vulnerability detection features.",
+            "fr": "Utilisation intensive de Maven pour gérer les dépendances et exploiter ses fonctionnalités de détection de vulnérabilités."
+          },
+          "technology": "TOOLS",
+          "rate": 9,
+          "project": "Palmyra Vulnerabilities Reference Platform"
+        },
+        {
+          "id": 25002,
+          "name": "SonarQube",
+          "coveredTopic": "Code Quality, Vulnerability Analysis",
+          "description": {
+            "en": "Integrated SonarQube to detect vulnerabilities, analyze code quality, and provide remediation insights.",
+            "fr": "Intégration de SonarQube pour détecter les vulnérabilités, analyser la qualité du code et fournir des recommandations de remédiation."
+          },
+          "technology": "TOOLS",
+          "rate": 8,
+          "project": "Palmyra Vulnerabilities Reference Platform"
+        },
+        {
+          "id": 25003,
+          "name": "Spring Boot",
+          "coveredTopic": "Backend Services, API Development",
+          "description": {
+            "en": "Developed backend microservices with Spring Boot to power the vulnerabilities reference platform.",
+            "fr": "Développement de microservices backend avec Spring Boot pour alimenter la plateforme de référence des vulnérabilités."
+          },
+          "technology": "SPRING",
+          "rate": 9,
+          "project": "Palmyra Vulnerabilities Reference Platform"
+        },
+        {
+          "id": 25004,
+          "name": "Docker & Kubernetes",
+          "coveredTopic": "Deployment, Scalability",
+          "description": {
+            "en": "Deployed vulnerability platform microservices in Docker containers orchestrated by Kubernetes clusters.",
+            "fr": "Déploiement des microservices de la plateforme de vulnérabilités dans des conteneurs Docker orchestrés par des clusters Kubernetes."
+          },
+          "technology": "DEVOPS",
+          "rate": 8,
+          "project": "Palmyra Vulnerabilities Reference Platform"
+        },
+        {
+          "id": 25005,
+          "name": "JIRA",
+          "coveredTopic": "Issue Tracking, QA Support",
+          "description": {
+            "en": "Used JIRA to track vulnerability remediation tasks and coordinate QA efforts.",
+            "fr": "Utilisation de JIRA pour suivre les tâches de remédiation des vulnérabilités et coordonner les efforts QA."
+          },
+          "technology": "DOCUMENTATION",
+          "rate": 8,
+          "project": "Palmyra Vulnerabilities Reference Platform"
+        },
+        {
+          "id": 25006,
+          "name": "Confluence",
+          "coveredTopic": "Knowledge Base, Documentation",
+          "description": {
+            "en": "Maintained vulnerability analysis reports and resolution strategies in Confluence for team reference.",
+            "fr": "Maintenance des rapports d’analyse des vulnérabilités et des stratégies de résolution dans Confluence pour référence des équipes."
+          },
+          "technology": "DOCUMENTATION",
+          "rate": 8,
+          "project": "Palmyra Vulnerabilities Reference Platform"
+        }
+      ]
+    },
+    {
+      "id": 7008,
+      "projectName": "Palmyra-Veggo Chatbot Backend Project",
+      "projectDescription": {
+        "en": "This project delivered the backend of a chatbot for Palmyra-Veggo users, built with Spring Boot microservices for CRUD operations on sessions and messages, connected to a Python AI backend providing fine-tuned generative responses. The main challenge was to maintain conversation context through session tracking and optimize AI prompts for more efficient and relevant answers, helping users achieve their business requirements while using the Palmyra framework.",
+        "fr": "Ce projet a livré le backend d’un chatbot pour les utilisateurs Palmyra-Veggo, construit avec des microservices Spring Boot pour les opérations CRUD sur les sessions et messages, connecté à un backend IA Python fournissant des réponses génératives fine-tunées. Le principal défi était de maintenir le contexte de conversation grâce au suivi des sessions et d’optimiser les prompts IA pour des réponses plus efficaces et pertinentes, aidant les utilisateurs à atteindre leurs besoins métier tout en utilisant le framework Palmyra."
+      },
+      "teamSize": "9-10",
+      "clients": [
+        {
+          "id": 1,
+          "name": "Palmyra R&D"
+        }
+      ],
+      "startDate": "2023-09-01T00:00:00Z",
+      "endDate": "2024-03-31T00:00:00Z",
+      "methodology": "AGILE",
+      "responsibilities": [
+        {
+          "id": 26001,
+          "description": {
+            "en": "Developed Spring Boot microservice backend providing CRUD operations for chatbot conversation sessions and messages.",
+            "fr": "Développement d’un backend microservice Spring Boot offrant des opérations CRUD pour les sessions de conversation et les messages du chatbot."
+          }
+        },
+        {
+          "id": 26002,
+          "description": {
+            "en": "Integrated Python backend with fine-tuned generative AI models to deliver contextual responses based on documentation.",
+            "fr": "Intégration d’un backend Python avec des modèles d’IA générative fine-tunés pour fournir des réponses contextuelles basées sur la documentation."
+          }
+        },
+        {
+          "id": 26003,
+          "description": {
+            "en": "Implemented session tracking mechanisms to maintain conversation context across user interactions.",
+            "fr": "Mise en œuvre de mécanismes de suivi de session pour maintenir le contexte de conversation entre les interactions utilisateur."
+          }
+        },
+        {
+          "id": 26004,
+          "description": {
+            "en": "Optimized AI model prompts to improve efficiency, accuracy, and relevance of chatbot responses.",
+            "fr": "Optimisation des prompts du modèle d’IA pour améliorer l’efficacité, la précision et la pertinence des réponses du chatbot."
+          }
+        },
+        {
+          "id": 26005,
+          "description": {
+            "en": "Ensured seamless integration of chatbot backend with Palmyra framework and Veggo platform ecosystem.",
+            "fr": "Assuré une intégration transparente du backend du chatbot avec le framework Palmyra et l’écosystème de la plateforme Veggo."
+          }
+        }
+      ],
+      "achievements": [
+        {
+          "id": 27001,
+          "description": {
+            "en": "Delivered chatbot backend enabling Palmyra-Veggo users to receive AI-driven assistance aligned with documentation.",
+            "fr": "Livraison d’un backend de chatbot permettant aux utilisateurs Palmyra-Veggo de recevoir une assistance pilotée par l’IA conforme à la documentation."
+          }
+        },
+        {
+          "id": 27002,
+          "description": {
+            "en": "Successfully implemented CRUD microservices for managing conversation sessions and messages with persistence.",
+            "fr": "Mise en œuvre réussie de microservices CRUD pour gérer les sessions de conversation et les messages avec persistance."
+          }
+        },
+        {
+          "id": 27003,
+          "description": {
+            "en": "Enhanced chatbot response quality by optimizing prompts and maintaining session context across interactions.",
+            "fr": "Amélioration de la qualité des réponses du chatbot grâce à l’optimisation des prompts et au maintien du contexte de session entre les interactions."
+          }
+        },
+        {
+          "id": 27004,
+          "description": {
+            "en": "Enabled seamless collaboration between Spring Boot backend and Python AI services for generative responses.",
+            "fr": "Permis une collaboration transparente entre le backend Spring Boot et les services IA Python pour des réponses génératives."
+          }
+        },
+        {
+          "id": 27005,
+          "description": {
+            "en": "Provided documentation and guidelines to QA-Dev teams for chatbot integration and testing.",
+            "fr": "Fourniture de documentation et de guides aux équipes QA-Dev pour l’intégration et les tests du chatbot."
+          }
+        }
+      ],
+      "technologies": [
+        {
+          "id": 28001,
+          "name": "Spring Boot",
+          "coveredTopic": "Microservices, Application Framework",
+          "description": {
+            "en": "Developed backend microservices with Spring Boot to support chatbot architecture and integration.",
+            "fr": "Développement de microservices backend avec Spring Boot pour supporter l’architecture et l’intégration du chatbot."
+          },
+          "technology": "SPRING",
+          "rate": 9,
+          "project": "Palmyra-Veggo Chatbot Backend Project"
+        },
+        {
+          "id": 28002,
+          "name": "Spring Data",
+          "coveredTopic": "CRUD APIs, Persistence Layer",
+          "description": {
+            "en": "Implemented CRUD APIs and persistence logic using Spring Data repositories for chatbot sessions and messages.",
+            "fr": "Mise en œuvre des APIs CRUD et de la logique de persistance avec les repositories Spring Data pour les sessions et messages du chatbot."
+          },
+          "technology": "SPRING",
+          "rate": 9,
+          "project": "Palmyra-Veggo Chatbot Backend Project"
+        },
+        {
+          "id": 28002,
+          "name": "Spring Web",
+          "coveredTopic": "RestTemplate Service Communication, Protocol Integration",
+          "description": {
+            "en": "Implemented Spring RestTemplate to connect backend microservices with external AI services.",
+            "fr": "Mise en œuvre de Spring RestTemplate pour connecter les microservices backend avec les services IA externes."
+          },
+          "technology": "SPRING",
+          "rate": 8,
+          "project": "Palmyra-Veggo Chatbot Backend Project"
+        },
+        {
+          "id": 28003,
+          "name": "Maven",
+          "coveredTopic": "Build Automation, Dependency Management",
+          "description": {
+            "en": "Extensively used Maven for building and managing dependencies of chatbot backend microservices.",
+            "fr": "Utilisation intensive de Maven pour la construction et la gestion des dépendances des microservices backend du chatbot."
+          },
+          "technology": "TOOLS",
+          "rate": 9,
+          "project": "Palmyra-Veggo Chatbot Backend Project"
+        },
+        {
+          "id": 28004,
+          "name": "Docker",
+          "coveredTopic": "Containerization, Image Management",
+          "description": {
+            "en": "Built and optimized Docker images for deploying chatbot backend microservices.",
+            "fr": "Construction et optimisation d’images Docker pour le déploiement des microservices backend du chatbot."
+          },
+          "technology": "DEVOPS",
+          "rate": 8,
+          "project": "Palmyra-Veggo Chatbot Backend Project"
+        },
+        {
+          "id": 28005,
+          "name": "Kubernetes",
+          "coveredTopic": "Orchestration, Scalability",
+          "description": {
+            "en": "Orchestrated chatbot backend microservices in Kubernetes clusters to ensure scalability and reliability.",
+            "fr": "Orchestration des microservices backend du chatbot dans des clusters Kubernetes pour assurer scalabilité et fiabilité."
+          },
+          "technology": "DEVOPS",
+          "rate": 8,
+          "project": "Palmyra-Veggo Chatbot Backend Project"
+        },
+        {
+          "id": 28006,
+          "name": "JIRA",
+          "coveredTopic": "Issue Tracking, QA Support",
+          "description": {
+            "en": "Used JIRA to track chatbot development tasks and coordinate QA efforts.",
+            "fr": "Utilisation de JIRA pour suivre les tâches de développement du chatbot et coordonner les efforts QA."
+          },
+          "technology": "DOCUMENTATION",
+          "rate": 8,
+          "project": "Palmyra-Veggo Chatbot Backend Project"
+        },
+        {
+          "id": 28007,
+          "name": "Confluence",
+          "coveredTopic": "Knowledge Base, Documentation",
+          "description": {
+            "en": "Maintained chatbot integration documentation and guidelines in Confluence.",
+            "fr": "Maintenance de la documentation d’intégration du chatbot et des guides dans Confluence."
+          },
+          "technology": "DOCUMENTATION",
+          "rate": 8,
+          "project": "Palmyra-Veggo Chatbot Backend Project"
+        }
+      ]
+    },
+    {
+      "id": 7009,
+      "projectName": "Palmyra Vulnerabilities Reference Platform",
+      "projectDescription": {
+        "en": "This project enriched the Palmyra framework with support for Apache Kafka and Amazon SQS messaging systems, integrating their open-source features into the Palmyra ecosystem and data structures. The solution provided unified messaging capabilities, improved scalability and resilience, and allowed clients to adopt distributed and cloud-based messaging seamlessly.",
+        "fr": "Ce projet a enrichi le framework Palmyra avec le support des systèmes de messagerie Apache Kafka et Amazon SQS, en intégrant leurs fonctionnalités open source dans l’écosystème et les structures de données Palmyra. La solution a offert des capacités de messagerie unifiées, amélioré la scalabilité et la résilience, et permis aux clients d’adopter la messagerie distribuée et cloud de manière transparente."
+      },
+      "teamSize": "15-18",
+      "clients": [
+        {
+          "id": 1,
+          "name": "Palmyra R&D"
+        },
+        {
+          "id": 2,
+          "name": "Crédit Agricole"
+        },
+        {
+          "id": 3,
+          "name": "Veggo"
+        },
+        {
+          "id": 4,
+          "name": "Bank of Canada"
+        },
+        {
+          "id": 5,
+          "name": "Bank of England"
+        },
+        {
+          "id": 6,
+          "name": "Bank de France"
+        },
+        {
+          "id": 7,
+          "name": "Generali"
+        },
+        {
+          "id": 8,
+          "name": "Megara"
+        },
+        {
+          "id": 9,
+          "name": "Santander"
+        },
+        {
+          "id": 10,
+          "name": "Solife"
+        },
+        {
+          "id": 11,
+          "name": "Atena"
+        }
+      ],
+      "startDate": "2019-09-01T00:00:00Z",
+      "endDate": "2024-03-31T00:00:00Z",
+      "methodology": "AGILE",
+      "responsibilities": [
+        {
+          "id": 29001,
+          "description": {
+            "en": "Contributed to the maintenance and enhancement of multiple Palmyra framework modules across transversal projects.",
+            "fr": "Contribution à la maintenance et à l’amélioration de plusieurs modules du framework Palmyra dans des projets transversaux."
+          }
+        },
+        {
+          "id": 29002,
+          "description": {
+            "en": "Supported job scheduling features using Quartz framework to ensure reliable task execution.",
+            "fr": "Support des fonctionnalités de planification de tâches avec le framework Quartz pour garantir une exécution fiable."
+          }
+        },
+        {
+          "id": 29003,
+          "description": {
+            "en": "Enhanced data integration capabilities across CSV, Excel, XML, and JSON formats using Apache Camel.",
+            "fr": "Amélioration des capacités d’intégration de données pour les formats CSV, Excel, XML et JSON avec Apache Camel."
+          }
+        },
+        {
+          "id": 29004,
+          "description": {
+            "en": "Maintained messaging input-output systems including RabbitMQ, ActiveMQ, Kafka, and Amazon SQS.",
+            "fr": "Maintenance des systèmes de messagerie entrée-sortie incluant RabbitMQ, ActiveMQ, Kafka et Amazon SQS."
+          }
+        },
+        {
+          "id": 29005,
+          "description": {
+            "en": "Improved persistence and caching mechanisms using Spring Data, Hibernate, and MyBatis ORM.",
+            "fr": "Amélioration des mécanismes de persistance et de cache avec Spring Data, Hibernate et MyBatis ORM."
+          }
+        },
+        {
+          "id": 29006,
+          "description": {
+            "en": "Ensured transactional concurrency support in Java-Spring applications.",
+            "fr": "Assuré le support de la concurrence transactionnelle dans les applications Java-Spring."
+          }
+        },
+        {
+          "id": 29007,
+          "description": {
+            "en": "Developed and maintained unit tests with JUnit to validate framework modules.",
+            "fr": "Développement et maintenance de tests unitaires avec JUnit pour valider les modules du framework."
+          }
+        },
+        {
+          "id": 29008,
+          "description": {
+            "en": "Supported multiple deployment modes across IBM, JBoss, WildFly, and Tomcat servers.",
+            "fr": "Support de multiples modes de déploiement sur les serveurs IBM, JBoss, WildFly et Tomcat."
+          }
+        },
+        {
+          "id": 29009,
+          "description": {
+            "en": "Ensured compatibility with different database engines including MSSQL, Oracle, and PostgreSQL.",
+            "fr": "Assuré la compatibilité avec différents moteurs de bases de données incluant MSSQL, Oracle et PostgreSQL."
+          }
+        }
+      ],
+      "achievements": [
+        {
+          "id": 30001,
+          "description": {
+            "en": "Strengthened Palmyra framework by maintaining and enhancing transversal modules across multiple technologies.",
+            "fr": "Renforcement du framework Palmyra par la maintenance et l’amélioration de modules transversaux sur plusieurs technologies."
+          }
+        },
+        {
+          "id": 30002,
+          "description": {
+            "en": "Improved reliability of job scheduling and messaging systems supporting enterprise-grade workflows.",
+            "fr": "Amélioration de la fiabilité de la planification des tâches et des systèmes de messagerie supportant des workflows de niveau entreprise."
+          }
+        },
+        {
+          "id": 30003,
+          "description": {
+            "en": "Enhanced data integration pipelines to support diverse formats and interoperability across client projects.",
+            "fr": "Amélioration des pipelines d’intégration de données pour supporter divers formats et l’interopérabilité entre projets clients."
+          }
+        },
+        {
+          "id": 30004,
+          "description": {
+            "en": "Ensured persistence, caching, and transactional concurrency mechanisms for robust framework performance.",
+            "fr": "Assuré les mécanismes de persistance, de cache et de concurrence transactionnelle pour des performances robustes du framework."
+          }
+        },
+        {
+          "id": 30005,
+          "description": {
+            "en": "Delivered consistent support for multiple deployment environments and database engines.",
+            "fr": "Fourniture d’un support constant pour plusieurs environnements de déploiement et moteurs de bases de données."
+          }
+        }
+      ],
+      "technologies": [
+        {
+          "id": 31001,
+          "name": "Quartz",
+          "coveredTopic": "Job Scheduling",
+          "description": {
+            "en": "Implemented and maintained job scheduling features using Quartz framework.",
+            "fr": "Mise en œuvre et maintenance des fonctionnalités de planification de tâches avec le framework Quartz."
+          },
+          "technology": "TOOLS",
+          "rate": 8,
+          "project": "Palmyra Framework Transversal Support"
+        },
+        {
+          "id": 31002,
+          "name": "Apache Camel",
+          "coveredTopic": "Data Integration (CSV, Excel, XML, JSON)",
+          "description": {
+            "en": "Enhanced data integration pipelines across multiple formats using Apache Camel.",
+            "fr": "Amélioration des pipelines d’intégration de données pour plusieurs formats avec Apache Camel."
+          },
+          "technology": "INTEGRATION",
+          "rate": 9,
+          "project": "Palmyra Framework Transversal Support"
+        },
+        {
+          "id": 31003,
+          "name": "RabbitMQ",
+          "coveredTopic": "Messaging System",
+          "description": {
+            "en": "Maintained messaging input-output features using RabbitMQ.",
+            "fr": "Maintenance des fonctionnalités de messagerie entrée-sortie avec RabbitMQ."
+          },
+          "technology": "MESSAGING",
+          "rate": 8,
+          "project": "Palmyra Framework Transversal Support"
+        },
+        {
+          "id": 31004,
+          "name": "ActiveMQ",
+          "coveredTopic": "Messaging System",
+          "description": {
+            "en": "Supported messaging integration and reliability using ActiveMQ.",
+            "fr": "Support de l’intégration et de la fiabilité de la messagerie avec ActiveMQ."
+          },
+          "technology": "MESSAGING",
+          "rate": 8,
+          "project": "Palmyra Framework Transversal Support"
+        },
+        {
+          "id": 31005,
+          "name": "Apache Kafka",
+          "coveredTopic": "Distributed Messaging",
+          "description": {
+            "en": "Integrated Kafka messaging features into Palmyra framework.",
+            "fr": "Intégration des fonctionnalités de messagerie Kafka dans le framework Palmyra."
+          },
+          "technology": "MESSAGING",
+          "rate": 9,
+          "project": "Palmyra Framework Transversal Support"
+        },
+        {
+          "id": 31006,
+          "name": "Amazon SQS",
+          "coveredTopic": "Cloud Messaging",
+          "description": {
+            "en": "Enabled Amazon SQS messaging support within Palmyra framework.",
+            "fr": "Activation du support de messagerie Amazon SQS dans le framework Palmyra."
+          },
+          "technology": "MESSAGING",
+          "rate": 8,
+          "project": "Palmyra Framework Transversal Support"
+        },
+        {
+          "id": 31007,
+          "name": "Spring Data",
+          "coveredTopic": "Persistence, CRUD APIs",
+          "description": {
+            "en": "Implemented persistence and CRUD APIs using Spring Data repositories.",
+            "fr": "Mise en œuvre de la persistance et des APIs CRUD avec les repositories Spring Data."
+          },
+          "technology": "SPRING",
+          "rate": 9,
+          "project": "Palmyra Framework Transversal Support"
+        },
+        {
+          "id": 31008,
+          "name": "Hibernate",
+          "coveredTopic": "ORM, Caching",
+          "description": {
+            "en": "Maintained persistence and caching mechanisms using Hibernate ORM.",
+            "fr": "Maintenance des mécanismes de persistance et de cache avec Hibernate ORM."
+          },
+          "technology": "SPRING",
+          "rate": 8,
+          "project": "Palmyra Framework Transversal Support"
+        },
+        {
+          "id": 31009,
+          "name": "MyBatis",
+          "coveredTopic": "ORM",
+          "description": {
+            "en": "Supported persistence layer with MyBatis ORM integration.",
+            "fr": "Support de la couche de persistance avec l’intégration MyBatis ORM."
+          },
+          "technology": "SPRING",
+          "rate": 7,
+          "project": "Palmyra Framework Transversal Support"
+        },
+        {
+          "id": 31010,
+          "name": "Java",
+          "coveredTopic": "Multithreading, Concurrency",
+          "description": {
+            "en": "Implemented multithreading and concurrency mechanisms in Java to support transactional workloads.",
+            "fr": "Mise en œuvre de mécanismes de multithreading et de concurrence en Java pour supporter les charges transactionnelles."
+          },
+          "technology": "JAVA",
+          "rate": 9,
+          "project": "Palmyra Framework Transversal Support"
+        },
+        {
+          "id": 31011,
+          "name": "Spring Core",
+          "coveredTopic": "Transactional Support",
+          "description": {
+            "en": "Ensured transactional support and consistency using Spring Core features.",
+            "fr": "Assuré le support transactionnel et la cohérence avec les fonctionnalités Spring Core."
+          },
+          "technology": "SPRING",
+          "rate": 9,
+          "project": "Palmyra Framework Transversal Support"
+        },
+        {
+          "id": 31012,
+          "name": "JUnit",
+          "coveredTopic": "Unit Testing",
+          "description": {
+            "en": "Developed and maintained unit tests with JUnit to validate framework modules.",
+            "fr": "Développement et maintenance de tests unitaires avec JUnit pour valider les modules du framework."
+          },
+          "technology": "TESTING",
+          "rate": 8,
+          "project": "Palmyra Framework Transversal Support"
+        },
+        {
+          "id": 31013,
+          "name": "IBM WebSphere",
+          "coveredTopic": "Application Server Deployment",
+          "description": {
+            "en": "Supported deployment of Palmyra framework modules on IBM WebSphere servers.",
+            "fr": "Support du déploiement des modules du framework Palmyra sur les serveurs IBM WebSphere."
+          },
+          "technology": "DEPLOYMENT",
+          "rate": 7,
+          "project": "Palmyra Framework Transversal Support"
+        },
+        {
+          "id": 31014,
+          "name": "JBoss",
+          "coveredTopic": "Application Server Deployment",
+          "description": {
+            "en": "Deployed Palmyra framework modules on JBoss servers.",
+            "fr": "Déploiement des modules du framework Palmyra sur les serveurs JBoss."
+          },
+          "technology": "DEPLOYMENT",
+          "rate": 7,
+          "project": "Palmyra Framework Transversal Support"
+        },
+        {
+          "id": 31015,
+          "name": "WildFly",
+          "coveredTopic": "Application Server Deployment",
+          "description": {
+            "en": "Maintained deployment compatibility with WildFly application servers.",
+            "fr": "Maintenance de la compatibilité de déploiement avec les serveurs d’applications WildFly."
+          },
+          "technology": "DEPLOYMENT",
+          "rate": 7,
+          "project": "Palmyra Framework Transversal Support"
+        },
+        {
+          "id": 31016,
+          "name": "Tomcat",
+          "coveredTopic": "Application Server Deployment",
+          "description": {
+            "en": "Configured and deployed Palmyra framework modules on Apache Tomcat servers.",
+            "fr": "Configuration et déploiement des modules du framework Palmyra sur les serveurs Apache Tomcat."
+          },
+          "technology": "DEPLOYMENT",
+          "rate": 8,
+          "project": "Palmyra Framework Transversal Support"
+        },
+        {
+          "id": 31017,
+          "name": "MSSQL",
+          "coveredTopic": "Database Engine Support",
+          "description": {
+            "en": "Ensured compatibility of Palmyra framework with Microsoft SQL Server.",
+            "fr": "Assuré la compatibilité du framework Palmyra avec Microsoft SQL Server."
+          },
+          "technology": "DATABASE",
+          "rate": 8,
+          "project": "Palmyra Framework Transversal Support"
+        },
+        {
+          "id": 31018,
+          "name": "Oracle",
+          "coveredTopic": "Database Engine Support",
+          "description": {
+            "en": "Maintained support for Oracle database engine within Palmyra framework.",
+            "fr": "Maintenance du support du moteur de base de données Oracle dans le framework Palmyra."
+          },
+          "technology": "DATABASE",
+          "rate": 8,
+          "project": "Palmyra Framework Transversal Support"
+        },
+        {
+          "id": 31019,
+          "name": "PostgreSQL",
+          "coveredTopic": "Database Engine Support",
+          "description": {
+            "en": "Integrated PostgreSQL database engine support into Palmyra framework.",
+            "fr": "Intégration du support du moteur de base de données PostgreSQL dans le framework Palmyra."
+          },
+          "technology": "DATABASE",
+          "rate": 8,
+          "project": "Palmyra Framework Transversal Support"
+        }
+      ]
+    }
+  ]
+}
