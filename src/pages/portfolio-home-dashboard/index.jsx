@@ -1,6 +1,6 @@
 import React from 'react';
 import { getDashboardData } from '../../services/homeService';
-import LoadingState from '../../components/ui/LoadingState';
+import LoadingState from '../../components/ui/loadingState';
 import Header from '../../components/ui/Header';
 import ScrollProgressIndicator from '../../components/ui/ScrollProgressIndicator';
 import HeroSection from './components/HeroSection';
