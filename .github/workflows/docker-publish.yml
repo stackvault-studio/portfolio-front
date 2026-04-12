@@ -42,35 +42,10 @@ jobs:
             type=ref,event=branch,branch=fix/*,enable=true,prefix=front-staging,replace=true
             type=ref,event=tag,enable=true,prefix=front-
 
-      - name: Build and push AMD64
+      - name: Build and push
         uses: docker/build-push-action@v5
         with:
           context: .
           push: ${{ github.event_name != 'pull_request' }}
-          tags: ${{ steps.meta.outputs.tags }}-amd64
+          tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
-          platforms: linux/amd64
-          cache-from: type=gha
-          cache-to: type=gha,mode=min
-
-      - name: Build and push ARM64
-        uses: docker/build-push-action@v5
-        with:
-          context: .
-          push: ${{ github.event_name != 'pull_request' }}
-          tags: ${{ steps.meta.outputs.tags }}-arm64
-          labels: ${{ steps.meta.outputs.labels }}
-          platforms: linux/arm64
-          cache-from: type=gha
-          cache-to: type=gha,mode=min
-
-      - name: Create and push manifest list
-        if: github.event_name != 'pull_request'
-        run: |
-          TAG=$(echo "${{ steps.meta.outputs.tags }}" | head -n 1)
-          docker pull ossemaabd95/stackvault:${TAG}-amd64
-          docker pull ossemaabd95/stackvault:${TAG}-arm64
-          docker manifest create ossemaabd95/stackvault:${TAG} \
-            ossemaabd95/stackvault:${TAG}-amd64 \
-            ossemaabd95/stackvault:${TAG}-arm64
-          docker manifest push ossemaabd95/stackvault:${TAG}
