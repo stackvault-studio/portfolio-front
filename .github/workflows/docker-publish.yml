@@ -50,6 +50,8 @@ jobs:
           tags: ${{ steps.meta.outputs.tags }}-amd64
           labels: ${{ steps.meta.outputs.labels }}
           platforms: linux/amd64
+          cache-from: type=gha
+          cache-to: type=gha,mode=min
 
       - name: Build and push ARM64
         uses: docker/build-push-action@v5
@@ -59,6 +61,8 @@ jobs:
           tags: ${{ steps.meta.outputs.tags }}-arm64
           labels: ${{ steps.meta.outputs.labels }}
           platforms: linux/arm64
+          cache-from: type=gha
+          cache-to: type=gha,mode=min
 
       - name: Create and push manifest list
         if: github.event_name != 'pull_request'
