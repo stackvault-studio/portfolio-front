@@ -22,7 +22,7 @@ jobs:
 
       - name: Set up Build ID
         run: |
-          echo "BUILD_ID=${{ github.ref_name }}-$(echo '${{ github.sha }}' | cut -c1:7)-$(date +'%Y%m%d%H%M')" >> $GITHUB_ENV
+          echo "BUILD_ID=frontend-${{ github.ref_name }}-$(echo '${{ github.sha }}' | cut -c1:7)-$(date +'%Y%m%d%H%M')" >> $GITHUB_ENV
 
       - name: Login to Docker Hub
         if: github.event_name != 'pull_request'
@@ -37,8 +37,6 @@ jobs:
         with:
           images: ossemaabd95/stackvault
           tags: |
-            type=ref,event=branch,branch=dev,value=frontend-dev
-            type=ref,event=tag,prefix=v,enable=true
             type=raw,value=${{ env.BUILD_ID }}
 
       - name: Build and push
