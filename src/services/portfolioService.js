@@ -1,4 +1,4 @@
-const API_BASE_URL = 'http://localhost:8081';
+import { API_BASE_URL } from '../config/api';
 
 // REST API service for contact form submission
 export const contactService = {

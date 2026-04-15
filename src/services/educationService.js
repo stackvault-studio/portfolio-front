@@ -1,10 +1,10 @@
-const API_BASE_URL = 'http://localhost:8081/api/ui';
+import { API_UI_BASE } from '../config/api';
 
 // REST API service for education
 export const educationService = {
   async getEducation() {
     try {
-      const response = await fetch(`${API_BASE_URL}/education`);
+      const response = await fetch(`${API_UI_BASE}/education`);
 
       if (!response.ok) {
         throw new Error('Failed to fetch education data');
@@ -67,7 +67,7 @@ export const certificationService = {
         queryParams.append('status', filters.status);
       }
 
-      const url = `${API_BASE_URL}/api/ui/certifications${queryParams.toString() ? '?' + queryParams.toString() : ''}`;
+      const url = `${API_UI_BASE}/api/ui/certifications${queryParams.toString() ? '?' + queryParams.toString() : ''}`;
       const response = await fetch(url);
 
       if (!response.ok) {
@@ -89,7 +89,7 @@ export const certificationService = {
 
   async getCertificationCategories() {
     try {
-      const response = await fetch(`${API_BASE_URL}/api/certifications/categories`);
+      const response = await fetch(`${API_UI_BASE}/api/certifications/categories`);
 
       if (!response.ok) {
         throw new Error('Failed to fetch certification categories');
@@ -113,7 +113,7 @@ export const certificationService = {
 export const skillsProgressionService = {
   async getSkillsProgression() {
     try {
-      const response = await fetch(`${API_BASE_URL}/api/skills-progression`);
+      const response = await fetch(`${API_UI_BASE}/api/skills-progression`);
 
       if (!response.ok) {
         throw new Error('Failed to fetch skills progression data');

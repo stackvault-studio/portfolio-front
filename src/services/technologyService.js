@@ -1,10 +1,10 @@
-const API_BASE_URL = 'http://localhost:8081/api/ui';
+import { API_UI_BASE } from '../config/api';
 
 // REST API service for technologies
 export const technologyService = {
   async getTechnologies() {
     try {
-      const url = `${API_BASE_URL}/technologies-showcase`;
+      const url = `${API_UI_BASE}/technologies-showcase`;
       const response = await fetch(url);
 
       if (!response.ok) {

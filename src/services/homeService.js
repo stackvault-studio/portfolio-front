@@ -1,10 +1,10 @@
-const API_BASE_URL = 'http://localhost:8081/api/ui';
+import { API_UI_BASE } from '../config/api';
 
 // REST API service for dashboard data
 export const dashboardService = {
   async getDashboardData() {
     try {
-      const response = await fetch(`${API_BASE_URL}/dashboard`);
+      const response = await fetch(`${API_UI_BASE}/dashboard`);
       if (!response.ok) {
         throw new Error('Failed to fetch dashboard data');
       }
