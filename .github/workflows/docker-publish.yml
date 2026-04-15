@@ -37,10 +37,10 @@ jobs:
         with:
           images: ossemaabd95/stackvault
           tags: |
-            type=ref,event=branch,branch=dev,enable=true,prefix=front-dev,replace=true
-            type=ref,event=branch,branch=feature/*,enable=true,prefix=front-staging,replace=true
-            type=ref,event=branch,branch=fix/*,enable=true,prefix=front-staging,replace=true
-            type=ref,event=tag,enable=true,prefix=front-
+            type=ref,event=branch,branch=dev,enable=true,prefix=frontend-dev,replace=true
+            type=ref,event=branch,branch=feature/*,enable=true,prefix=frontend-staging,replace=true
+            type=ref,event=branch,branch=fix/*,enable=true,prefix=frontend-staging,replace=true
+            type=ref,event=tag,enable=true,prefix=frontend-
 
       - name: Build and push
         uses: docker/build-push-action@v5
