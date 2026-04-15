@@ -22,7 +22,9 @@ jobs:
 
       - name: Set up Build ID
         run: |
-          echo "BUILD_ID=frontend-${{ github.ref_name }}-$(echo '${{ github.sha }}' | cut -c1:7)-$(date +'%Y%m%d%H%M')" >> $GITHUB_ENV
+          SHORT_COMMIT=$(echo "${GITHUB_SHA}" | cut -c1-7)
+          BUILD_ID="frontend-${GITHUB_REF_NAME}-${SHORT_COMMIT}-$(date +'%Y%m%d%H%M')"
+          echo "BUILD_ID=$BUILD_ID" >> $GITHUB_ENV
 
       - name: Login to Docker Hub
         if: github.event_name != 'pull_request'
