@@ -4,14 +4,10 @@ on:
   push:
     branches:
       - dev
-      - 'feature/*'
-      - 'fix/*'
     tags: ['v*.*.*']
   pull_request:
     branches:
       - dev
-      - 'feature/*'
-      - 'fix/*'
   workflow_dispatch:
 
 jobs:
@@ -37,10 +33,8 @@ jobs:
         with:
           images: ossemaabd95/stackvault
           tags: |
-            type=ref,event=branch,branch=dev,enable=true,prefix=frontend-dev,replace=true
-            type=ref,event=branch,branch=feature/*,enable=true,prefix=frontend-staging,replace=true
-            type=ref,event=branch,branch=fix/*,enable=true,prefix=frontend-staging,replace=true
-            type=ref,event=tag,enable=true,prefix=frontend-
+            type=ref,event=branch,branch=dev,value=frontend-dev
+            type=ref,event=tag,prefix=v,enable=true
 
       - name: Build and push
         uses: docker/build-push-action@v5
