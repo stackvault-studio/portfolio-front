@@ -67,7 +67,7 @@ export const certificationService = {
         queryParams.append('status', filters.status);
       }
 
-      const url = `${API_UI_BASE}/api/ui/certifications${queryParams.toString() ? '?' + queryParams.toString() : ''}`;
+      const url = `${API_UI_BASE}/certifications${queryParams.toString() ? '?' + queryParams.toString() : ''}`;
       const response = await fetch(url);
 
       if (!response.ok) {
